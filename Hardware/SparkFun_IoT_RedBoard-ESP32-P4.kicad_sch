@@ -23447,7 +23447,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 114.3)
+		(at 177.8 114.3)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23463,7 +23463,7 @@
 		)
 		(uuid "153c2adc-4b67-4ffd-a6b4-3b9462635c2e")
 		(property "Sheetname" "Connectors"
-			(at 190.5 113.5884 0)
+			(at 177.8 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23472,7 +23472,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 190.5 140.2846 0)
+			(at 177.8 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23489,7 +23489,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 114.3)
+		(at 215.9 114.3)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23505,7 +23505,7 @@
 		)
 		(uuid "795662fa-cdd7-48ca-ba0a-8fd563c95ce1")
 		(property "Sheetname" "Power and Network"
-			(at 228.6 113.5884 0)
+			(at 215.9 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23514,7 +23514,7 @@
 			)
 		)
 		(property "Sheetfile" "power_and_network.kicad_sch"
-			(at 228.6 140.2846 0)
+			(at 215.9 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
