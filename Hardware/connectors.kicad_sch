@@ -11654,7 +11654,7 @@
 			)
 		)
 	)
-	(global_label "IO24{slash}USB_D-"
+	(global_label "USB_SERIAL_D-"
 		(shape input)
 		(at 78.74 44.45 0)
 		(fields_autoplaced yes)
@@ -11918,7 +11918,7 @@
 			)
 		)
 	)
-	(global_label "IO25{slash}USB_D+"
+	(global_label "USB_SERIAL_D+"
 		(shape input)
 		(at 78.74 41.91 0)
 		(fields_autoplaced yes)
