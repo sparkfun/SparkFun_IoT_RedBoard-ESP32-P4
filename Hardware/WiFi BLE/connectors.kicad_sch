@@ -7570,6 +7570,12 @@
 		(uuid "06342602-17eb-4b88-b24d-acc62fa6f358")
 	)
 	(junction
+		(at 45.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d2f7633-da1a-4269-a761-dd7f7621a19b")
+	)
+	(junction
 		(at 231.14 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7592,6 +7598,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "172d5068-0200-47f2-a855-8dcf1cdb56a5")
+	)
+	(junction
+		(at 45.72 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a45603a-9c94-48bf-b8a5-e14a84424cb4")
 	)
 	(junction
 		(at 60.96 44.45)
@@ -9659,6 +9671,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 33.02) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d94037-8c9b-4f57-85f4-f0bdc1dff78b")
+	)
+	(wire
+		(pts
 			(xy 238.76 147.32) (xy 238.76 139.7)
 		)
 		(stroke
@@ -10436,6 +10458,16 @@
 			(type default)
 		)
 		(uuid "ef523266-fc57-4815-9b95-c3504a5e9dd1")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f107b2cc-a48d-40f2-a80b-d38d04fc5d0c")
 	)
 	(wire
 		(pts
@@ -12728,6 +12760,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 48.26 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ddd2b41-6525-4ab1-a1c8-ffc4bd8827f0")
+		(property "Reference" "TP6"
+			(at 50.8 35.56 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 44.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257dcc1b-8bcf-440c-ad7c-0004ec32a8bd")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Connector:Barrel_Jack_SMD")
 		(at 129.54 100.33 0)
 		(unit 1)
@@ -14589,6 +14687,72 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 48.26 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5555c3b4-acf4-484b-b418-7359f6d20455")
+		(property "Reference" "TP7"
+			(at 50.8 83.82 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 44.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 41.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92acc9f-8b3d-4808-8b8c-8867c1314c11")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
