@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "989df432-4458-469f-b97b-1a8883192a83")
 	(paper "USLetter")
+	(title_block
+		(title "SparkFun IoT RedBoard ESP32-P4 PoE")
+		(date "2026-02-06")
+		(rev "v01")
+		(company "SparkFun Electronics")
+		(comment 1 "Designed by: Dryw Wade")
+	)
 	(lib_symbols
 		(symbol "SparkFun-Board:RedBoard"
 			(pin_numbers
@@ -3486,7 +3493,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 2.54 3.81 270)
+					(at 5.08 3.81 270)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -10532,7 +10539,7 @@
 			)
 		)
 	)
-	(global_label "IO8{slash}D"
+	(global_label "IO8{slash}PICO"
 		(shape input)
 		(at 68.58 162.56 180)
 		(fields_autoplaced yes)
@@ -10884,7 +10891,7 @@
 			)
 		)
 	)
-	(global_label "IO10{slash}Q"
+	(global_label "IO10{slash}POCI"
 		(shape input)
 		(at 139.7 162.56 0)
 		(fields_autoplaced yes)
@@ -10972,7 +10979,7 @@
 			)
 		)
 	)
-	(global_label "IO9{slash}CK"
+	(global_label "IO9{slash}SCK"
 		(shape input)
 		(at 139.7 165.1 0)
 		(fields_autoplaced yes)
@@ -11610,7 +11617,7 @@
 			)
 		)
 	)
-	(global_label "IO9{slash}CK"
+	(global_label "IO9{slash}SCK"
 		(shape input)
 		(at 68.58 157.48 180)
 		(fields_autoplaced yes)
@@ -11852,7 +11859,7 @@
 			)
 		)
 	)
-	(global_label "IO10{slash}Q"
+	(global_label "IO10{slash}POCI"
 		(shape input)
 		(at 68.58 160.02 180)
 		(fields_autoplaced yes)
@@ -11874,7 +11881,7 @@
 			)
 		)
 	)
-	(global_label "IO8{slash}D"
+	(global_label "IO8{slash}PICO"
 		(shape input)
 		(at 139.7 160.02 0)
 		(fields_autoplaced yes)
@@ -12833,7 +12840,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a9a92af-d33b-4ede-9783-307d2b8c417d")
 		(property "Reference" "JP4"
 			(at 24.13 105.41 0)
@@ -12841,10 +12847,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 24.13 107.95 0)
+		(property "Value" "SHLD2"
+			(at 24.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17737,7 +17744,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1ae4a12-2b21-4484-b4cd-753160a1bb70")
 		(property "Reference" "JP3"
 			(at 24.13 57.15 0)
@@ -17745,10 +17751,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 24.13 59.69 0)
+		(property "Value" "SHLD1"
+			(at 24.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18801,7 +18808,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcc58a2e-4e89-4d92-a348-bf1bb08db386")
 		(property "Reference" "JP7"
 			(at 129.54 62.23 0)
@@ -18809,10 +18815,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 129.54 64.77 0)
+		(property "Value" "I2C"
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

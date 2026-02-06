@@ -5,10 +5,11 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "SparkFun Product (Qwiic)")
-		(rev "v10")
-		(company "SparkFun")
-		(comment 1 "Designed by: You")
+		(title "SparkFun IoT RedBoard ESP32-P4 PoE")
+		(date "2026-02-06")
+		(rev "v01")
+		(company "SparkFun Electronics")
+		(comment 1 "Designed by: Dryw Wade")
 	)
 	(lib_symbols
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
@@ -10655,7 +10656,7 @@
 			)
 		)
 	)
-	(global_label "IO10{slash}Q"
+	(global_label "IO10{slash}POCI"
 		(shape input)
 		(at 139.7 73.66 0)
 		(fields_autoplaced yes)
@@ -11667,7 +11668,7 @@
 			)
 		)
 	)
-	(global_label "IO8{slash}D"
+	(global_label "IO8{slash}PICO"
 		(shape input)
 		(at 139.7 68.58 0)
 		(fields_autoplaced yes)
@@ -12503,7 +12504,7 @@
 			)
 		)
 	)
-	(global_label "IO9{slash}CK"
+	(global_label "IO9{slash}SCK"
 		(shape input)
 		(at 139.7 71.12 0)
 		(fields_autoplaced yes)
@@ -12644,7 +12645,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00e53937-db82-4a1a-b1b4-51ca6ba68a7e")
 		(property "Reference" "JP6"
 			(at 236.22 87.6299 90)
@@ -12653,10 +12653,11 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 236.22 90.1699 90)
+		(property "Value" "PWR"
+			(at 236.22 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14997,7 +14998,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3954a5b2-6bd2-4791-9696-ae5e2c7951df")
 		(property "Reference" "JP5"
 			(at 203.2 74.93 0)
@@ -15005,10 +15005,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 203.2 77.47 0)
+		(property "Value" "LED_DO"
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "378a94e1-001a-4975-a8e7-32a1a8979a12")
 	(paper "USLetter")
+	(title_block
+		(title "SparkFun IoT RedBoard ESP32-P4 PoE")
+		(date "2026-02-06")
+		(rev "v01")
+		(company "SparkFun Electronics")
+		(comment 1 "Designed by: Dryw Wade")
+	)
 	(lib_symbols
 		(symbol "SparkFun-Capacitor:0.1uF_0402_16V_10%"
 			(pin_numbers
@@ -5108,7 +5115,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -15558,7 +15565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
 			(at 5.08 330.2 0)
 			(effects
 				(font
@@ -17756,7 +17763,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d0b5e6b-4401-4269-9037-084938bfde8f")
 		(property "Reference" "JP2"
 			(at 218.44 125.73 0)
@@ -17764,10 +17770,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 218.44 128.27 0)
+		(property "Value" "CHG"
+			(at 218.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22450,7 +22457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
 			(at 7.62 330.2 0)
 			(effects
 				(font
@@ -23038,7 +23045,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad91a6d9-3e3f-449f-94de-cb6cedc89465")
 		(property "Reference" "JP1"
 			(at 91.44 191.7699 90)
@@ -23047,10 +23053,11 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 91.44 194.3099 90)
+		(property "Value" "POE"
+			(at 91.44 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
