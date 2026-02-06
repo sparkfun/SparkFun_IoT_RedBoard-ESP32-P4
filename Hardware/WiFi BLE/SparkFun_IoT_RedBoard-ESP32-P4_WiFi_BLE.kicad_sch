@@ -23482,7 +23482,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(page "2")
 				)
@@ -23524,7 +23524,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(page "3")
 				)

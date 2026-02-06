@@ -60,19 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|132839695|108575000|ae0a7723-d708-4bf1-88a5-8b664da8e84d|f1b2541a-c120-43f5-9488-15cbd1993f32",
+          "courtyards_overlap|132839695|108575000|a012cd2f-4b7c-4103-8b77-07f009436855|f1b2541a-c120-43f5-9488-15cbd1993f32",
           ""
         ],
         [
-          "courtyards_overlap|136955000|109003000|5420be2b-930d-4c4b-b871-13804c8e63cc|ae0a7723-d708-4bf1-88a5-8b664da8e84d",
+          "courtyards_overlap|136955000|109003000|5420be2b-930d-4c4b-b871-13804c8e63cc|a012cd2f-4b7c-4103-8b77-07f009436855",
           ""
         ],
         [
-          "courtyards_overlap|138180285|121890761|ae0a7723-d708-4bf1-88a5-8b664da8e84d|ffe26ee7-14ce-41fb-9f5d-76780b8a8b57",
+          "courtyards_overlap|138180285|121890761|a012cd2f-4b7c-4103-8b77-07f009436855|ffe26ee7-14ce-41fb-9f5d-76780b8a8b57",
           ""
         ],
         [
-          "courtyards_overlap|138800000|112968467|3c9f7610-fe86-43f8-a63d-c7bdd0e59271|ae0a7723-d708-4bf1-88a5-8b664da8e84d",
+          "courtyards_overlap|138800000|112968467|3c9f7610-fe86-43f8-a63d-c7bdd0e59271|a012cd2f-4b7c-4103-8b77-07f009436855",
           ""
         ],
         [
@@ -100,27 +100,35 @@
           ""
         ],
         [
-          "courtyards_overlap|178170000|78385000|464e09ce-71ac-495d-8105-663fd5f90872|ab06d210-9999-4170-8a5c-9dd37005d5df",
-          ""
-        ],
-        [
-          "courtyards_overlap|180430000|78385000|ab06d210-9999-4170-8a5c-9dd37005d5df|dd5f2f56-8874-4c70-b5cc-ad7447723b43",
-          ""
-        ],
-        [
-          "courtyards_overlap|182247603|96144000|ab06d210-9999-4170-8a5c-9dd37005d5df|be4c260c-4642-415d-a993-6d2c8bdec7ae",
-          ""
-        ],
-        [
-          "courtyards_overlap|184675000|78385000|ab06d210-9999-4170-8a5c-9dd37005d5df|b58360b0-c021-47e5-88cb-e0d0a4a6acb1",
-          ""
-        ],
-        [
           "courtyards_overlap|192105000|119457986|2694e774-c1ec-4c5e-bbbe-3cc4cf88cc4c|e5bdde48-a713-46bc-ba32-d77eb7d758f3",
           ""
         ],
         [
-          "items_not_allowed|178975000|80855000|dd5f2f56-8874-4c70-b5cc-ad7447723b43|00000000-0000-0000-0000-000000000000",
+          "footprint_symbol_mismatch|173990000|88900000|c36d6dce-e4c5-413d-9081-a73793741189|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|192514483|87673793|13e1caef-f037-4841-8ecb-7b5469d106c4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|193401015|116865787|5cf0de12-8676-40a9-8e36-354a45d3a015|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|126905000|111070000|4439f738-e059-4edd-87e3-096122aa2bf8|7a7dddb3-5677-46bc-9bdc-02fa91af7bad",
+          ""
+        ],
+        [
+          "silk_edge_clearance|126905000|120070000|4439f738-e059-4edd-87e3-096122aa2bf8|fbff5145-5929-42d5-b6c7-e5e4f987aa20",
+          ""
+        ],
+        [
+          "silk_edge_clearance|127000000|113070000|4439f738-e059-4edd-87e3-096122aa2bf8|db722fef-edf7-4af8-95c8-779a4b9b36ff",
+          ""
+        ],
+        [
+          "silk_edge_clearance|127000000|118070000|4439f738-e059-4edd-87e3-096122aa2bf8|247d8031-5dc9-4a8e-bc39-281cd7463bd5",
           ""
         ],
         [
@@ -544,7 +552,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_IoT_RedBoard-ESP32-P4.kicad_pro",
+    "filename": "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE.kicad_pro",
     "version": 3
   },
   "net_settings": {
