@@ -3514,6 +3514,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Connector:TestPoint_1.0mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.0mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_1.0mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1.0mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -7518,6 +7618,12 @@
 		(uuid "25fbaf7d-7caa-44d2-b889-6e0e52dbedd8")
 	)
 	(junction
+		(at 78.74 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26357cd5-d30b-4d76-9a0d-41e815af104e")
+	)
+	(junction
 		(at 187.96 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7528,6 +7634,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37af862a-9906-4a4d-9ec2-a87aa0160426")
+	)
+	(junction
+		(at 78.74 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e463729-1dde-4fb4-8d8c-543aab86266d")
 	)
 	(junction
 		(at 27.94 111.76)
@@ -7714,6 +7826,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4386509-bb15-40d6-a1f0-8a93bfc1b69e")
+	)
+	(junction
+		(at 78.74 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e99e7e5e-6571-4c58-af82-cd6d1dc906d5")
+	)
+	(junction
+		(at 78.74 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6373bb1-2c5c-4846-a212-f791550491fa")
 	)
 	(no_connect
 		(at 193.04 119.38)
@@ -7962,6 +8086,16 @@
 			(type default)
 		)
 		(uuid "0d50bb59-1cfa-4825-8f35-3d0e3bcc33fa")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edc6434-6bf9-48d5-b116-cb1040e4de34")
 	)
 	(wire
 		(pts
@@ -8335,6 +8469,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 90.17) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392a2d86-96bc-4aef-bd45-c4e47e0f9920")
+	)
+	(wire
+		(pts
 			(xy 238.76 33.02) (xy 231.14 33.02)
 		)
 		(stroke
@@ -8552,6 +8696,16 @@
 			(type default)
 		)
 		(uuid "4c221bc9-e8bb-48cc-af30-144126ca32af")
+	)
+	(wire
+		(pts
+			(xy 78.74 41.91) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d043308-6ebb-4c36-8a3b-93e622693a2c")
 	)
 	(wire
 		(pts
@@ -9095,7 +9249,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 92.71) (xy 77.47 92.71)
+			(xy 78.74 44.45) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aac99fe-a93b-4aaf-8512-ff2b71e2d8a3")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.71) (xy 78.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9222,6 +9386,26 @@
 			(type default)
 		)
 		(uuid "8358dfe4-3869-4027-b5c3-844e3f471829")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84550a26-63df-41d8-b548-8ce0b251a7a9")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 78.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84feb2a1-cff9-4523-9baa-f9fdc8a805ef")
 	)
 	(wire
 		(pts
@@ -10075,7 +10259,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 77.47 90.17)
+			(xy 76.2 90.17) (xy 78.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10195,6 +10379,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 92.71) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94697fc-175b-4744-89a5-1ecb2c7d6df1")
+	)
+	(wire
+		(pts
 			(xy 111.76 177.8) (xy 109.22 177.8)
 		)
 		(stroke
@@ -10252,6 +10446,16 @@
 			(type default)
 		)
 		(uuid "f1c91680-15c7-4694-9811-5e42b96873a8")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f330c4ca-8cfa-4f3c-be79-bb72615ae96e")
 	)
 	(wire
 		(pts
@@ -10519,7 +10723,7 @@
 	)
 	(global_label "USB_OTG_HS_D+"
 		(shape input)
-		(at 77.47 90.17 0)
+		(at 81.28 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10529,7 +10733,7 @@
 		)
 		(uuid "04c483cc-1e8f-4b5c-8763-287c12bc72d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1185 90.17 0)
+			(at 99.9285 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +11273,7 @@
 	)
 	(global_label "USB_OTG_HS_D-"
 		(shape input)
-		(at 77.47 92.71 0)
+		(at 81.28 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11079,7 +11283,7 @@
 		)
 		(uuid "57345aa6-049e-4184-8aa2-3aaafeae5514")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1185 92.71 0)
+			(at 99.9285 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +11867,7 @@
 	)
 	(global_label "USB_SERIAL_D-"
 		(shape input)
-		(at 78.74 44.45 0)
+		(at 81.28 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11673,7 +11877,7 @@
 		)
 		(uuid "a590f145-ed58-444d-90f9-a5de529f7fe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 44.45 0)
+			(at 91.8852 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11927,7 +12131,7 @@
 	)
 	(global_label "USB_SERIAL_D+"
 		(shape input)
-		(at 78.74 41.91 0)
+		(at 81.28 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11937,7 +12141,7 @@
 		)
 		(uuid "c1a05cc9-b789-4e73-8e76-457cb41e6c2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 41.91 0)
+			(at 91.8852 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17960,6 +18164,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbbdccba-a72b-438f-a66f-61589c5ead60")
+		(property "Reference" "TP2"
+			(at 81.28 48.26 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b86d546-ab17-426e-b78d-47bad523eee4")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 238.76 165.1 0)
 		(unit 1)
@@ -18278,6 +18548,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4918aeb-c42a-465b-876f-44b99f75d0cb")
+		(property "Reference" "TP3"
+			(at 81.28 86.36 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24aca710-ac00-4fc9-9428-71a387599a8b")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:VDD")
 		(at 208.28 30.48 0)
 		(unit 1)
@@ -18576,6 +18912,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eedf884d-12f4-4bfa-9302-6453f871cc41")
+		(property "Reference" "TP1"
+			(at 81.28 38.1 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b80faf-e361-42d9-b91b-4fcce84fcc47")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 121.92 118.11 0)
 		(unit 1)
@@ -18795,6 +19197,72 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8196e90-0e27-4fd3-99c3-9df2d58e1ef0")
+		(property "Reference" "TP4"
+			(at 81.28 96.52 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f52f2c75-9aa3-4abf-856c-f46a1f3a4c32")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

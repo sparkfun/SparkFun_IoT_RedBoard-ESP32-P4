@@ -3514,6 +3514,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Connector:TestPoint_1.0mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.0mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_1.0mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1.0mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -7470,6 +7570,12 @@
 		(uuid "06342602-17eb-4b88-b24d-acc62fa6f358")
 	)
 	(junction
+		(at 78.74 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a446b60-cd13-4389-81cd-1b1bdbc7b707")
+	)
+	(junction
 		(at 231.14 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7554,6 +7660,12 @@
 		(uuid "4cd7df01-cc54-4a26-884e-f888cf156fb7")
 	)
 	(junction
+		(at 78.74 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5075b777-61bf-4b4e-a7cf-8efcdf4ec60a")
+	)
+	(junction
 		(at 167.64 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7600,6 +7712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77ebb62c-6055-4465-b838-50233544d31f")
+	)
+	(junction
+		(at 78.74 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "796d7f7f-f231-4948-baff-bd0188d79ebf")
 	)
 	(junction
 		(at 76.2 41.91)
@@ -7714,6 +7832,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4386509-bb15-40d6-a1f0-8a93bfc1b69e")
+	)
+	(junction
+		(at 78.74 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee3ae99a-5b2e-418c-a7f5-912027687299")
 	)
 	(no_connect
 		(at 193.04 119.38)
@@ -7895,6 +8019,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 92.71) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073ecbc1-3f26-40d8-b677-824080132bd9")
+	)
+	(wire
+		(pts
 			(xy 58.42 44.45) (xy 60.96 44.45)
 		)
 		(stroke
@@ -7912,6 +8046,16 @@
 			(type default)
 		)
 		(uuid "080ca943-bb00-4a64-845c-7ccf5938c263")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5f7c1d-bd9c-4d37-b953-611a3dc08b00")
 	)
 	(wire
 		(pts
@@ -7972,6 +8116,16 @@
 			(type default)
 		)
 		(uuid "0f5b3139-6894-48a3-a058-35411e974413")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c95ef3-dadd-4db5-98f2-45db24ad8c3d")
 	)
 	(wire
 		(pts
@@ -8252,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "310baebc-b15a-4997-8e29-77401f46d657")
+	)
+	(wire
+		(pts
+			(xy 78.74 90.17) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c1eb89-e572-442d-884e-e37b54d77b13")
 	)
 	(polyline
 		(pts
@@ -9095,7 +9259,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 92.71) (xy 77.47 92.71)
+			(xy 60.96 92.71) (xy 78.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9405,6 +9569,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 88.9) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11588fe-e16f-4148-8d46-db885e4d8321")
+	)
+	(wire
+		(pts
 			(xy 45.72 33.02) (xy 45.72 30.48)
 		)
 		(stroke
@@ -9475,6 +9649,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 41.91) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a623c4f7-dfb2-480a-8c08-3cfab13ac6f7")
+	)
+	(wire
+		(pts
 			(xy 238.76 147.32) (xy 238.76 139.7)
 		)
 		(stroke
@@ -9502,6 +9686,16 @@
 			(type default)
 		)
 		(uuid "a79241d5-95dd-4648-a1fb-e838499c0afb")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 78.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79cbd70-2ae0-48f9-b872-625ffb267400")
 	)
 	(wire
 		(pts
@@ -9652,6 +9846,16 @@
 			(type default)
 		)
 		(uuid "b42928fc-ac45-4777-96dd-e15037c995d3")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c202dc-a51b-46f7-ac62-919a546eb0c7")
 	)
 	(wire
 		(pts
@@ -10075,7 +10279,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 77.47 90.17)
+			(xy 76.2 90.17) (xy 78.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10519,7 +10723,7 @@
 	)
 	(global_label "USB_OTG_HS_D+"
 		(shape input)
-		(at 77.47 90.17 0)
+		(at 81.28 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10529,7 +10733,7 @@
 		)
 		(uuid "04c483cc-1e8f-4b5c-8763-287c12bc72d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1185 90.17 0)
+			(at 99.9285 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +11273,7 @@
 	)
 	(global_label "USB_OTG_HS_D-"
 		(shape input)
-		(at 77.47 92.71 0)
+		(at 81.28 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11079,7 +11283,7 @@
 		)
 		(uuid "57345aa6-049e-4184-8aa2-3aaafeae5514")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1185 92.71 0)
+			(at 99.9285 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +11867,7 @@
 	)
 	(global_label "USB_SERIAL_D-"
 		(shape input)
-		(at 78.74 44.45 0)
+		(at 81.28 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11673,7 +11877,7 @@
 		)
 		(uuid "a590f145-ed58-444d-90f9-a5de529f7fe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 44.45 0)
+			(at 91.8852 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11927,7 +12131,7 @@
 	)
 	(global_label "USB_SERIAL_D+"
 		(shape input)
-		(at 78.74 41.91 0)
+		(at 81.28 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11937,7 +12141,7 @@
 		)
 		(uuid "c1a05cc9-b789-4e73-8e76-457cb41e6c2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 41.91 0)
+			(at 91.8852 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17960,6 +18164,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbbdccba-a72b-438f-a66f-61589c5ead60")
+		(property "Reference" "TP2"
+			(at 81.28 48.26 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b86d546-ab17-426e-b78d-47bad523eee4")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 238.76 165.1 0)
 		(unit 1)
@@ -18278,6 +18548,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4918aeb-c42a-465b-876f-44b99f75d0cb")
+		(property "Reference" "TP3"
+			(at 81.28 86.36 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24aca710-ac00-4fc9-9428-71a387599a8b")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:VDD")
 		(at 208.28 30.48 0)
 		(unit 1)
@@ -18576,6 +18912,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eedf884d-12f4-4bfa-9302-6453f871cc41")
+		(property "Reference" "TP1"
+			(at 81.28 38.1 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b80faf-e361-42d9-b91b-4fcce84fcc47")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 121.92 118.11 0)
 		(unit 1)
@@ -18795,6 +19197,72 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 78.74 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8196e90-0e27-4fd3-99c3-9df2d58e1ef0")
+		(property "Reference" "TP4"
+			(at 81.28 96.52 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f52f2c75-9aa3-4abf-856c-f46a1f3a4c32")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
