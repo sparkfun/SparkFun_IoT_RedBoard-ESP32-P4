@@ -124,19 +124,19 @@
           ""
         ],
         [
-          "silk_edge_clearance|126905000|111070000|991726d3-ed02-441d-9eda-e542e9a54855|f8095df2-bf87-4bf8-befc-a9c9650982f8",
+          "silk_edge_clearance|126905000|111070000|991726d3-ed02-441d-9eda-e542e9a54855|33c4a8df-7de4-45e4-bc06-ec5579a00cbc",
           ""
         ],
         [
-          "silk_edge_clearance|126905000|120070000|991726d3-ed02-441d-9eda-e542e9a54855|6d213b88-ae51-49bd-a860-39ea6f2b05be",
+          "silk_edge_clearance|126905000|120070000|991726d3-ed02-441d-9eda-e542e9a54855|48d95e1b-0674-43f4-a197-c89208debe73",
           ""
         ],
         [
-          "silk_edge_clearance|127000000|113070000|991726d3-ed02-441d-9eda-e542e9a54855|1a7ea994-2f47-4c4b-9723-0c7613cd04f6",
+          "silk_edge_clearance|127000000|113070000|991726d3-ed02-441d-9eda-e542e9a54855|ad784551-8b9d-4ada-b2ad-e0fb8412a6ea",
           ""
         ],
         [
-          "silk_edge_clearance|127000000|118070000|991726d3-ed02-441d-9eda-e542e9a54855|409a5d09-76a9-48bb-a583-50b66c6023d6",
+          "silk_edge_clearance|127000000|118070000|991726d3-ed02-441d-9eda-e542e9a54855|0d9869fb-c58c-4d4f-9944-d18bdd0bf6ac",
           ""
         ],
         [
@@ -144,19 +144,15 @@
           ""
         ],
         [
-          "silk_edge_clearance|175545000|104298000|bcbdb53d-dc7f-4154-9d9a-5530e99705e6|d2f9d845-3028-48e4-9f99-87de0217b974",
+          "silk_edge_clearance|175545000|104298000|bcbdb53d-dc7f-4154-9d9a-5530e99705e6|f06f8ee9-37ad-48af-b821-d523a6833a22",
           ""
         ],
         [
-          "silk_edge_clearance|188902000|97610000|07c12716-e6c9-4046-a44b-ede31bd77b1a|086fd1bb-fd47-4674-8b8c-6732482569f6",
+          "silk_edge_clearance|188902000|97610000|07c12716-e6c9-4046-a44b-ede31bd77b1a|19fe28ea-94c4-43e1-b559-8657734f5d56",
           ""
         ],
         [
-          "silk_edge_clearance|189670000|92456000|1c3f63e4-7f2d-4a14-a644-83f04a3f5b32|b374f898-8e51-4085-9e00-e910a3ed2f00",
-          ""
-        ],
-        [
-          "silk_edge_clearance|191939500|94657500|1c3f63e4-7f2d-4a14-a644-83f04a3f5b32|c8f4ea3e-f2ad-493c-ba8e-cc67c31889ce",
+          "silk_edge_clearance|189670000|91694000|18c240c9-bfa7-4a5d-b713-a26238d09fda|b374f898-8e51-4085-9e00-e910a3ed2f00",
           ""
         ],
         [
@@ -613,9 +609,23 @@
         "diff_pair_width": 0.12192,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.127,
-        "name": "MIPI",
+        "name": "Ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.12192,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.12192,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.127,
+        "name": "MIPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12192,
         "via_diameter": 0.45,
@@ -629,7 +639,7 @@
         "microvia_drill": 0.127,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.174752,
         "via_diameter": 0.45,
@@ -653,6 +663,14 @@
       {
         "netclass": "MIPI",
         "pattern": "DSI_*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RD*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TD*"
       }
     ]
   },
