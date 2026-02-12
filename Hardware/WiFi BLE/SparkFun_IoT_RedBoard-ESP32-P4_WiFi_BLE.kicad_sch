@@ -12352,7 +12352,7 @@
 			)
 		)
 	)
-	(global_label "IO42{slash}SD_D2"
+	(global_label "IO42{slash}SD_D3"
 		(shape input)
 		(at 139.7 154.94 0)
 		(fields_autoplaced yes)
