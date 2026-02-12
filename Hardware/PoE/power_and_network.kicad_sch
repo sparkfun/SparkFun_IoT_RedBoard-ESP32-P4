@@ -6693,203 +6693,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Jumper:Jumper_Measure"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Measure"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-				(at -0.254 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_Measure_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_Measure_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun-Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -9680,16 +9483,6 @@
 		)
 		(uuid "3d7a414a-6bf8-4b37-b07b-145f3f6bb5e0")
 	)
-	(text "Open POE+ and POE-\njumpers to measure\ncurrent consumption"
-		(exclude_from_sim no)
-		(at 24.13 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6c0566be-d56c-4988-bfb7-3343e31f5bd9")
-	)
 	(text "Power Flow"
 		(exclude_from_sim no)
 		(at 88.9 16.51 0)
@@ -10366,7 +10159,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 182.88) (xy 25.4 182.88)
+			(xy 30.48 182.88) (xy 33.02 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10473,16 +10266,6 @@
 			(type default)
 		)
 		(uuid "3e6d03cc-384b-484a-8827-b512beb678be")
-	)
-	(wire
-		(pts
-			(xy 30.48 182.88) (xy 33.02 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41268ce7-d1d2-423e-b2e1-85c9515556be")
 	)
 	(wire
 		(pts
@@ -11136,16 +10919,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 177.8) (xy 33.02 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87190729-4827-484e-a823-68b86eb95bdd")
-	)
-	(wire
-		(pts
 			(xy 114.3 25.4) (xy 114.3 27.94)
 		)
 		(stroke
@@ -11176,7 +10949,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 177.8) (xy 25.4 177.8)
+			(xy 30.48 177.8) (xy 33.02 177.8)
 		)
 		(stroke
 			(width 0)
@@ -11704,16 +11477,6 @@
 		)
 		(uuid "babf707b-3c9a-4eef-bd63-fa361490273f")
 	)
-	(polyline
-		(pts
-			(xy 25.4 184.15) (xy 22.86 188.595)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "bac96594-92ba-44a2-a540-4617d9ffb2ce")
-	)
 	(wire
 		(pts
 			(xy 88.9 40.64) (xy 91.44 40.64)
@@ -12236,7 +11999,7 @@
 	)
 	(global_label "POE-"
 		(shape input)
-		(at 22.86 182.88 180)
+		(at 30.48 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12246,7 +12009,7 @@
 		)
 		(uuid "067b8193-ba8f-49f8-ad9d-8f98fb466b7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.5529 182.88 0)
+			(at 22.1729 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +12329,7 @@
 	)
 	(global_label "POE+"
 		(shape input)
-		(at 22.86 177.8 180)
+		(at 30.48 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12576,7 +12339,7 @@
 		)
 		(uuid "63a8166d-c3e5-4c64-be7f-107a38b268ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.5529 177.8 0)
+			(at 22.1729 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,74 +12868,6 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 27.94 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0416709f-94c8-433a-bf88-8cd0a4e3ed5d")
-		(property "Reference" "JP9"
-			(at 27.94 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POE-"
-			(at 27.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 27.686 187.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 27.94 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "161df74a-1514-4616-af9f-17883d50f82e")
-		)
-		(pin "2"
-			(uuid "a214106a-9ef4-4abc-a376-171e71e8bf75")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
-					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -21594,74 +21289,6 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 27.94 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebee2508-ea7d-42fe-b582-52e5e1d3836a")
-		(property "Reference" "JP8"
-			(at 27.94 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POE+"
-			(at 27.94 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 27.686 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 27.94 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5ecc6ce-2738-49f6-9e73-6eaeaba4ba63")
-		)
-		(pin "2"
-			(uuid "b631c13b-b894-48ec-987e-afeda6a8850b")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
