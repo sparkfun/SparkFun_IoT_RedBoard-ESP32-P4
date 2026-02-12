@@ -56216,6 +56216,161 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "SparkFun-Aesthetic:Polarity_Marking_Center_Positive"
+		(layer "B.Cu")
+		(uuid "aee504fa-1495-40d5-823a-8271264625d6")
+		(at 131.318 115.57 -90)
+		(tags "SparkFun")
+		(property "Reference" "Ref**"
+			(at 0 1.4 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "00fff94c-1a75-48e1-a2ed-3b6f28e32f77")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 -1.3 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "caa70573-1e9d-4b0d-a93f-44f66aa802ce")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77f9c8d0-6d99-4cf9-954b-7d79a30c5887")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b1e1494-b30e-425d-a303-f2c8144c0b0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_line
+			(start 2.2606 0.3302)
+			(end 2.2606 -0.3048)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9b7781b7-532a-42df-966d-2726ad0b2805")
+		)
+		(fp_line
+			(start -2.54 0)
+			(end -1.9558 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fce3b8a3-f442-43e6-b8eb-d79114e3a02d")
+		)
+		(fp_line
+			(start -1.5748 0)
+			(end -0.6604 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8d2c6bbf-7d83-40d4-875f-767942d64094")
+		)
+		(fp_line
+			(start 0.2032 0)
+			(end 1.6002 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e2373697-23e0-4af2-9423-f829511c9c06")
+		)
+		(fp_line
+			(start 1.9304 0)
+			(end 2.5654 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "05a0344e-6fbb-4242-9bf7-61815a5c9971")
+		)
+		(fp_arc
+			(start 0.5334 0.4318)
+			(mid -0.659547 0.054017)
+			(end 0.4826 -0.457201)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "322ceb34-3085-442c-aede-bd80a14aa851")
+		)
+		(fp_circle
+			(center -2.2352 0)
+			(end -1.5748 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "b5d6221e-367d-4d64-8ad5-2774886c32e6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.150093 0)
+			(stroke
+				(width 0.4064)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "b5021308-8ac1-42d1-bf4d-2055ed666219")
+		)
+		(fp_circle
+			(center 2.2606 0)
+			(end 2.921 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "faef5004-1653-4826-963a-475314dd0d38")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "kibuzzard-6986213F"
 		(layer "B.Cu")
 		(uuid "b15a7d6a-f6b3-4461-b71d-34b5ad545e4e")
