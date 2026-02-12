@@ -6175,6 +6175,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-PowerSymbol:3.3V_P"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3.3V_P"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3.3V_P_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.3V_P_1_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3.3V_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-PowerSymbol:5V"
 			(power)
 			(pin_names
@@ -7991,7 +8114,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 34.29) (xy 128.27 34.29)
+			(xy 129.54 35.56) (xy 127 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8111,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 26.67) (xy 130.81 26.67)
+			(xy 124.46 27.94) (xy 129.54 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8151,7 +8274,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 31.75) (xy 128.27 31.75)
+			(xy 129.54 33.02) (xy 127 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8781,7 +8904,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 29.21) (xy 130.81 29.21)
+			(xy 124.46 30.48) (xy 129.54 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10161,7 +10284,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 34.29) (xy 128.27 36.83)
+			(xy 127 35.56) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10711,7 +10834,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 31.75) (xy 128.27 24.13)
+			(xy 127 33.02) (xy 127 25.4)
 		)
 		(stroke
 			(width 0)
@@ -11981,7 +12104,7 @@
 	)
 	(global_label "IO26{slash}SDA"
 		(shape input)
-		(at 125.73 29.21 180)
+		(at 124.46 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11991,7 +12114,7 @@
 		)
 		(uuid "a9064c98-ad85-498a-98b1-df94b0b0bd8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.1248 29.21 0)
+			(at 113.8548 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,7 +12390,7 @@
 	)
 	(global_label "IO27{slash}SCL"
 		(shape input)
-		(at 125.73 26.67 180)
+		(at 124.46 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12277,7 +12400,7 @@
 		)
 		(uuid "c3da16df-980a-440b-92db-f1a165ae4049")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.1853 26.67 0)
+			(at 113.9153 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,73 +12742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 238.76 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a176504-4c20-4d4e-afef-fd9b1225f7ac")
-		(property "Reference" "#PWR047"
-			(at 238.76 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 238.76 97.79 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eef13ff4-499d-4a3d-b9d5-22f4f6bfe230")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 45.72 63.5 0)
 		(unit 1)
@@ -12754,7 +12810,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 128.27 36.83 0)
+		(at 127 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12763,7 +12819,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c0b2d87-52f2-4120-a605-ae2845fd5942")
 		(property "Reference" "#PWR01"
-			(at 128.27 43.18 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12772,7 +12828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 40.64 0)
+			(at 127 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12781,7 +12837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 36.83 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12790,7 +12846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 36.83 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 36.83 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13122,73 +13178,6 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 177.8 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "196817e5-852b-41ec-ad36-0d92f81f6e17")
-		(property "Reference" "#PWR058"
-			(at 177.8 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 177.8 21.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 177.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5671990-c33d-4c2a-ae37-4f4fcdd58cf0")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13707,6 +13696,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 33.02 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e94bfbc-1922-4b2c-8edd-2b1923d4dfe2")
+		(property "Reference" "#PWR042"
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_P"
+			(at 33.02 148.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 33.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27e058b-4d08-4fa4-9939-b57376ae0238")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 50.8 111.76 0)
 		(unit 1)
@@ -13768,6 +13824,73 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 99.06 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30ae2661-0bee-403c-839e-b58e24e1214c")
+		(property "Reference" "#PWR040"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_P"
+			(at 99.06 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 99.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d9092e-314e-4e03-a1e9-0500aed48096")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14384,17 +14507,17 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 33.02 152.4 0)
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 177.8 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51a03bf3-0670-4ab6-93cf-58fb05df44c0")
-		(property "Reference" "#PWR0105"
-			(at 33.02 156.21 0)
+		(uuid "50533a84-4c1f-4562-93ea-f014352961d3")
+		(property "Reference" "#PWR045"
+			(at 177.8 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14402,8 +14525,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 33.02 148.59 0)
+		(property "Value" "3.3V_P"
+			(at 177.8 21.59 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14412,7 +14535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 152.4 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,7 +14544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 152.4 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14429,8 +14552,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 33.02 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 177.8 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,12 +14562,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5978c24-4424-40aa-9c51-0fea9f4a4eba")
+			(uuid "916ce0f4-d2f1-4024-a719-ee865eef030f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR0105")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14680,73 +14803,6 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 71.12 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c5bb35-f8c7-4bf1-b773-efe1618a6db9")
-		(property "Reference" "#PWR0102"
-			(at 71.12 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 71.12 138.43 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 71.12 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f03e11c2-e6e1-461e-9a47-a4fee6c8323e")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -15875,73 +15931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 99.06 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b520e72-fdae-4923-8108-d40100c41bb9")
-		(property "Reference" "#PWR0101"
-			(at 99.06 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 99.06 140.97 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7adc4fd7-4293-4751-9944-dcceadd17295")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 167.64 50.8 0)
 		(unit 1)
@@ -16716,6 +16705,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 71.12 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e7129ce-b691-4945-b268-58791dbece23")
+		(property "Reference" "#PWR041"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_P"
+			(at 71.12 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 71.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f66ce75-a926-456c-977f-7198fbe234e2")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:10k_0402")
 		(at 246.38 35.56 90)
 		(unit 1)
@@ -17213,140 +17269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 128.27 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cc99e6c-816e-41ed-a735-4d75da2a56e5")
-		(property "Reference" "#PWR02"
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 128.27 20.32 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 128.27 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "077c11c2-3f91-4c64-bc09-85d7b025c8dc")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 190.5 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d0f58bf-00b7-4493-b27e-4e9047696047")
-		(property "Reference" "#PWR048"
-			(at 190.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 190.5 97.79 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bc32590-4498-4ee9-ad7a-b716d8690616")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Resistor:5.1k_0402")
 		(at 50.8 58.42 90)
 		(unit 1)
@@ -17420,6 +17342,73 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 190.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e031de7-fd1f-42b0-8b32-37157d3da12f")
+		(property "Reference" "#PWR043"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_P"
+			(at 190.5 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b0a3d70-cc85-499b-a9cd-8ee75ee013da")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -18972,6 +18961,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 238.76 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f624c3-bdaf-4ec1-8d51-0ee79d354142")
+		(property "Reference" "#PWR044"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_P"
+			(at 238.76 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1add2e1-dade-4d9d-992b-ccff06c03077")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:10k_0402")
 		(at 238.76 35.56 90)
 		(unit 1)
@@ -19337,7 +19393,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Qwiic_Vertical")
-		(at 135.89 29.21 0)
+		(at 134.62 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19346,7 +19402,7 @@
 		(fields_autoplaced yes)
 		(uuid "f749197d-4bdd-492d-8481-f59d3ae8db27")
 		(property "Reference" "J1"
-			(at 146.05 29.2099 0)
+			(at 144.78 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19355,7 +19411,7 @@
 			)
 		)
 		(property "Value" "Qwiic_RA"
-			(at 146.05 31.7499 0)
+			(at 144.78 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19364,7 +19420,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:JST_1x04_P1.0mm_Vertical_SMD"
-			(at 135.89 41.91 0)
+			(at 134.62 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19373,7 +19429,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 135.89 44.45 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19382,7 +19438,7 @@
 			)
 		)
 		(property "Description" "4 pin JST 1mm polarized connector for I2C"
-			(at 135.89 46.99 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19391,7 +19447,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-14483"
-			(at 135.89 39.37 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19487,6 +19543,73 @@
 			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_P")
+		(at 127 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d35013-c681-4267-b2ae-d19eb9c9c3d1")
+		(property "Reference" "#PWR02"
+			(at 127 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_P"
+			(at 127 21.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42369977-651f-428a-99ae-a69629927867")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
