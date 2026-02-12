@@ -7286,6 +7286,16 @@
 		)
 		(uuid "3192c14a-ab59-473a-892f-2ee1beeb8992")
 	)
+	(text "Open LED_DO to disable\noutput on NC pin"
+		(exclude_from_sim no)
+		(at 218.44 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a32e47c-842e-4223-b502-34c3c47edd66")
+	)
 	(text "VDD_IO_5"
 		(exclude_from_sim no)
 		(at 95.25 17.78 0)
@@ -7295,6 +7305,16 @@
 			)
 		)
 		(uuid "52e77931-2ef5-4cd8-bddc-bbfebfe4dc28")
+	)
+	(text "Open PWR to disable\npower indicator LED"
+		(exclude_from_sim no)
+		(at 226.06 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "542954ac-098c-48bc-9d4e-aa2dcae59147")
 	)
 	(text "VDD_LDO/DCDC"
 		(exclude_from_sim no)
@@ -8157,6 +8177,16 @@
 			(type default)
 		)
 		(uuid "1e22a002-de26-43ce-bcef-6e6d09fd7cfe")
+	)
+	(polyline
+		(pts
+			(xy 215.9 78.74) (xy 213.995 81.915)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1eaecb61-d766-46e5-a5c8-b11d1eb01be1")
 	)
 	(wire
 		(pts
@@ -9977,6 +10007,16 @@
 			(type default)
 		)
 		(uuid "be7ccccd-345a-4619-8cbc-a94bccd34648")
+	)
+	(polyline
+		(pts
+			(xy 239.395 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bf5a9497-0789-4028-93ff-eb71b7003c83")
 	)
 	(wire
 		(pts

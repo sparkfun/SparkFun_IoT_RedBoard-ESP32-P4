@@ -7316,6 +7316,16 @@
 		)
 		(uuid "7a47e9f6-3415-48a1-b990-6288c9919587")
 	)
+	(text "Open PWR to disable\npower indicator LED"
+		(exclude_from_sim no)
+		(at 226.06 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84e7a632-00e9-4e85-a54a-b0b4ed6a61dd")
+	)
 	(text "VDD_USBPHY"
 		(exclude_from_sim no)
 		(at 67.31 17.78 0)
@@ -7395,6 +7405,16 @@
 			)
 		)
 		(uuid "dbed2276-3bf4-4c6b-b3aa-7a294bd103c4")
+	)
+	(text "Open LED_DO to disable\noutput on NC pin"
+		(exclude_from_sim no)
+		(at 218.44 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea7f395d-be70-494c-bc9b-0683362d5972")
 	)
 	(text "Core Voltage Regulator"
 		(exclude_from_sim no)
@@ -8263,6 +8283,16 @@
 			(type default)
 		)
 		(uuid "25c7c8c1-8f12-4c28-982f-c2df23276daa")
+	)
+	(polyline
+		(pts
+			(xy 239.395 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "26d24c3b-e084-477b-8332-45b24675e242")
 	)
 	(wire
 		(pts
@@ -9883,6 +9913,16 @@
 			(type default)
 		)
 		(uuid "b40caf7d-68cb-45fe-be94-ae7937536e5f")
+	)
+	(polyline
+		(pts
+			(xy 215.9 78.74) (xy 213.995 81.915)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b51fa99e-5f8a-4f49-87d9-a1a5af18e110")
 	)
 	(wire
 		(pts

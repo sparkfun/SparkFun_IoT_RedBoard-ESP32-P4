@@ -7527,6 +7527,16 @@
 		)
 		(uuid "12d977aa-3458-481b-b8c9-8df588fe5b2b")
 	)
+	(text "Open I2C to remove\npullup resistors"
+		(exclude_from_sim no)
+		(at 142.24 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2eb6993e-08e5-4507-bc6a-df39f4d79b51")
+	)
 	(text "uSD Card Slot"
 		(exclude_from_sim no)
 		(at 223.52 16.51 0)
@@ -7536,6 +7546,26 @@
 			)
 		)
 		(uuid "3ec3164e-e2c2-4551-9031-f27336560f6a")
+	)
+	(text "Open SHLD1\nto disconnect\nUSB shield\nfrom GND"
+		(exclude_from_sim no)
+		(at 19.05 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6349ac16-33bc-4803-b54b-840572008e67")
+	)
+	(text "Open SHLD1\nto disconnect\nUSB shield\nfrom GND"
+		(exclude_from_sim no)
+		(at 19.05 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e07a543c-6e3c-4cc6-86e1-aec7392fe99c")
 	)
 	(text "USB-C Connectors"
 		(exclude_from_sim no)
@@ -8058,6 +8088,16 @@
 			(type default)
 		)
 		(uuid "080ca943-bb00-4a64-845c-7ccf5938c263")
+	)
+	(polyline
+		(pts
+			(xy 20.955 113.03) (xy 18.415 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0a1c2f39-d5ed-4edd-9829-0ca096ab0515")
 	)
 	(wire
 		(pts
@@ -8818,6 +8858,16 @@
 			(type default)
 		)
 		(uuid "530e9f48-d33d-4bae-8bc5-044ad33b52dd")
+	)
+	(polyline
+		(pts
+			(xy 133.985 53.975) (xy 131.445 56.515)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "549dcbc1-d078-488a-98f9-0fbd576953a9")
 	)
 	(wire
 		(pts
@@ -10338,6 +10388,16 @@
 			(type default)
 		)
 		(uuid "d93a906d-a493-4382-afd6-48198859f015")
+	)
+	(polyline
+		(pts
+			(xy 20.955 64.77) (xy 18.415 67.31)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d95698ea-529b-425d-a16c-62a22a90119a")
 	)
 	(wire
 		(pts

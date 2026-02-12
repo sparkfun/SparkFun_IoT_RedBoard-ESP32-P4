@@ -5375,6 +5375,16 @@
 		)
 		(uuid "8fb12479-faa7-43ae-ac50-577555076298")
 	)
+	(text "Open CHG to disable\nbattery charging\nindicator LED"
+		(exclude_from_sim no)
+		(at 205.74 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9aeb08a-2764-4ee1-a624-431ae45d7f13")
+	)
 	(text "Network - WiFi and BLE"
 		(exclude_from_sim no)
 		(at 88.9 54.61 0)
@@ -5914,6 +5924,16 @@
 			(type default)
 		)
 		(uuid "31122e9a-7710-4c01-9158-05af00ed7e5b")
+	)
+	(polyline
+		(pts
+			(xy 205.74 134.62) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "37e79f71-c94a-41e8-95ad-99ed391b4c0e")
 	)
 	(wire
 		(pts

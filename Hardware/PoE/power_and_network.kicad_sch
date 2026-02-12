@@ -9557,6 +9557,16 @@
 		)
 		(uuid "3d7a414a-6bf8-4b37-b07b-145f3f6bb5e0")
 	)
+	(text "Open POE+ and POE-\njumpers to measure\ncurrent consumption"
+		(exclude_from_sim no)
+		(at 24.13 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c0566be-d56c-4988-bfb7-3343e31f5bd9")
+	)
 	(text "Power Flow"
 		(exclude_from_sim no)
 		(at 88.9 16.51 0)
@@ -9576,6 +9586,36 @@
 			)
 		)
 		(uuid "8fb12479-faa7-43ae-ac50-577555076298")
+	)
+	(text "Open YLW and GRN\njumpers to disable\nEthernet jack LEDs"
+		(exclude_from_sim no)
+		(at 59.69 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a03c7444-456b-49f6-be48-5e2605a4f024")
+	)
+	(text "Open POE to\nremove dummy load"
+		(exclude_from_sim no)
+		(at 111.76 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2417d4c-ba5c-4b3e-ad6a-91fcfbb63abb")
+	)
+	(text "Open CHG to disable\nbattery charging\nindicator LED"
+		(exclude_from_sim no)
+		(at 205.74 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec3bcb71-97ea-4a9f-b0b5-df0fa29a9cf0")
 	)
 	(junction
 		(at 101.6 93.98)
@@ -9956,6 +9996,16 @@
 			(type default)
 		)
 		(uuid "172791e3-a4e8-4fe3-bfab-c4aa392e8a6e")
+	)
+	(polyline
+		(pts
+			(xy 205.74 134.62) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "183631f4-d6ee-4c44-a360-dd1a2511fb98")
 	)
 	(wire
 		(pts
@@ -10457,6 +10507,16 @@
 		)
 		(uuid "55906e80-0fff-45f4-9078-874d4adcdd88")
 	)
+	(polyline
+		(pts
+			(xy 98.425 192.405) (xy 104.14 194.945)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5a119014-f37b-4c02-ba3c-75b11a545a08")
+	)
 	(wire
 		(pts
 			(xy 134.62 147.32) (xy 137.16 147.32)
@@ -10947,6 +11007,16 @@
 		)
 		(uuid "912ba2de-ac14-4b6a-8a1f-d54b5b17bdf4")
 	)
+	(polyline
+		(pts
+			(xy 65.405 65.405) (xy 66.675 71.755)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "91583563-81d3-424e-9eb1-c9a67784df1a")
+	)
 	(wire
 		(pts
 			(xy 241.3 130.81) (xy 241.3 133.35)
@@ -11376,6 +11446,16 @@
 			(type default)
 		)
 		(uuid "babf707b-3c9a-4eef-bd63-fa361490273f")
+	)
+	(polyline
+		(pts
+			(xy 25.4 184.15) (xy 22.86 188.595)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bac96594-92ba-44a2-a540-4617d9ffb2ce")
 	)
 	(wire
 		(pts

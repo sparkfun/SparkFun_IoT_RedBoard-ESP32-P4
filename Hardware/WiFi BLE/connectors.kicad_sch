@@ -7537,6 +7537,26 @@
 		)
 		(uuid "3ec3164e-e2c2-4551-9031-f27336560f6a")
 	)
+	(text "Open SHLD1\nto disconnect\nUSB shield\nfrom GND"
+		(exclude_from_sim no)
+		(at 19.05 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73f3cea7-ecc4-40a6-9c5e-988d3e3eef91")
+	)
+	(text "Open I2C to remove\npullup resistors"
+		(exclude_from_sim no)
+		(at 142.24 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d683c907-62f3-4a4e-b75d-964c97ed8734")
+	)
 	(text "USB-C Connectors"
 		(exclude_from_sim no)
 		(at 57.15 16.51 0)
@@ -7556,6 +7576,16 @@
 			)
 		)
 		(uuid "efb1e84f-f650-4e62-bcb3-27ba8d9d30a0")
+	)
+	(text "Open SHLD1\nto disconnect\nUSB shield\nfrom GND"
+		(exclude_from_sim no)
+		(at 19.05 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f74f2689-e8f2-4c8d-b35f-5121ef1d68b1")
 	)
 	(junction
 		(at 73.66 41.91)
@@ -8669,6 +8699,16 @@
 		)
 		(uuid "47bff2d0-aeb1-41c6-9d4b-1d1eef8e4f68")
 	)
+	(polyline
+		(pts
+			(xy 20.955 113.03) (xy 18.415 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4a07b629-a65d-4024-9691-9e55ec4cb0cc")
+	)
 	(wire
 		(pts
 			(xy 137.16 157.48) (xy 139.7 157.48)
@@ -9198,6 +9238,16 @@
 			(type default)
 		)
 		(uuid "76b11645-62d8-49a6-80aa-76c5d97f60d4")
+	)
+	(polyline
+		(pts
+			(xy 20.955 64.77) (xy 18.415 67.31)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "783361d2-b1c7-49b1-ab44-2534ffa3bcc2")
 	)
 	(wire
 		(pts
@@ -9878,6 +9928,16 @@
 			(type default)
 		)
 		(uuid "b7a109d5-c264-4b27-9d0d-52b8d96a36c0")
+	)
+	(polyline
+		(pts
+			(xy 133.985 53.975) (xy 131.445 56.515)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b7a81fda-1f67-4506-aa0d-88cd5688b16c")
 	)
 	(wire
 		(pts
