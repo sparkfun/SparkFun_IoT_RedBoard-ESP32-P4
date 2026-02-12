@@ -1109,6 +1109,318 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/datasheets/BreakoutBoards/BSS138.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/gate/source"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "TRANS-00830"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IMax" "0.2A"
+				(at 7.62 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VMax" "50V"
+				(at 7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_0.2A_50V_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_0.2A_50V_1_1"
+				(pin input line
+					(at -2.54 0 0)
+					(length 0)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V_DUAL"
 			(pin_names
 				(offset 0)
@@ -1135,7 +1447,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -5504,6 +5816,12 @@
 		(uuid "a6322b27-fc00-4ac9-bc03-9945585c2da0")
 	)
 	(junction
+		(at 114.3 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7203ee8-d8b1-4dbf-b14e-58d9c36083c2")
+	)
+	(junction
 		(at 109.22 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5697,6 +6015,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 175.26) (xy 121.92 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efc7f3c-7fbe-4c31-ba67-6347451b3f34")
+	)
+	(wire
+		(pts
 			(xy 116.84 109.22) (xy 127 109.22)
 		)
 		(stroke
@@ -5734,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "16843d57-19e4-4aff-bda7-e118de18f618")
+	)
+	(wire
+		(pts
+			(xy 114.3 182.88) (xy 116.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1694dccb-f54e-4de0-aeec-bb8d11adf0b6")
 	)
 	(wire
 		(pts
@@ -6294,6 +6632,16 @@
 			(type default)
 		)
 		(uuid "717b5838-5214-46a3-8127-99ca9237282d")
+	)
+	(wire
+		(pts
+			(xy 121.92 187.96) (xy 121.92 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d14f2f-2410-4245-9ab6-fbd228f09f50")
 	)
 	(wire
 		(pts
@@ -6927,6 +7275,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 182.88) (xy 114.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0335fca-ea07-434b-aee9-aaa3d1c39749")
+	)
+	(wire
+		(pts
 			(xy 237.49 27.94) (xy 237.49 30.48)
 		)
 		(stroke
@@ -7057,6 +7415,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 182.88) (xy 114.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea562a09-1274-4ab5-a91b-3f3544f069a2")
+	)
+	(wire
+		(pts
 			(xy 38.1 157.48) (xy 35.56 157.48)
 		)
 		(stroke
@@ -7097,6 +7465,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 175.26) (xy 121.92 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1897539-74f0-42be-8753-1fa8ee84dd65")
+	)
+	(wire
+		(pts
 			(xy 35.56 152.4) (xy 38.1 152.4)
 		)
 		(stroke
@@ -7104,6 +7482,16 @@
 			(type default)
 		)
 		(uuid "f1be10d3-b833-42d9-acaa-8719fc5127b4")
+	)
+	(wire
+		(pts
+			(xy 114.3 193.04) (xy 114.3 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20fcba8-b221-4564-899e-827377d37606")
 	)
 	(wire
 		(pts
@@ -7245,7 +7633,7 @@
 			)
 		)
 	)
-	(global_label "C5_BOOT"
+	(global_label "C5_~{BOOT}"
 		(shape input)
 		(at 101.6 152.4 180)
 		(fields_autoplaced yes)
@@ -7377,7 +7765,7 @@
 			)
 		)
 	)
-	(global_label "C5_BOOT"
+	(global_label "C5_~{BOOT}"
 		(shape input)
 		(at 78.74 172.72 0)
 		(fields_autoplaced yes)
@@ -7421,7 +7809,7 @@
 			)
 		)
 	)
-	(global_label "IO20{slash}NET_RST"
+	(global_label "C5_~{RST}"
 		(shape input)
 		(at 43.18 86.36 180)
 		(fields_autoplaced yes)
@@ -7434,6 +7822,28 @@
 		(uuid "6d6d8f8c-b757-4f71-bc96-86d256c90acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.6482 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO20{slash}NET_RST"
+		(shape input)
+		(at 111.76 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71169f2b-5b5b-4931-8542-15e6bb30d69a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.2282 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,6 +7888,28 @@
 		(uuid "8b8f0aec-662f-4944-99c2-e89563af4995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.8471 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5_~{RST}"
+		(shape input)
+		(at 124.46 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96271e44-4def-4c63-afe8-f24682b4b652")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3394 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7985,7 @@
 			)
 		)
 	)
-	(global_label "C5_BOOT"
+	(global_label "C5_~{BOOT}"
 		(shape input)
 		(at 83.82 129.54 0)
 		(fields_autoplaced yes)
@@ -7597,7 +8029,7 @@
 			)
 		)
 	)
-	(global_label "IO20{slash}NET_RST"
+	(global_label "C5_~{RST}"
 		(shape input)
 		(at 60.96 172.72 180)
 		(fields_autoplaced yes)
@@ -7663,7 +8095,7 @@
 			)
 		)
 	)
-	(global_label "IO20{slash}NET_RST"
+	(global_label "C5_~{RST}"
 		(shape input)
 		(at 134.62 152.4 0)
 		(fields_autoplaced yes)
@@ -7817,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
 			(at 116.84 149.86 0)
 			(effects
 				(font
@@ -8377,6 +8809,106 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V")
+		(at 119.38 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cb72202-9dac-4fac-b99a-78bea8bee78e")
+		(property "Reference" "Q3"
+			(at 125.73 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 125.73 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
+			(at 119.38 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/BreakoutBoards/BSS138.pdf"
+			(at 119.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 119.38 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "TRANS-00830"
+			(at 119.38 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" "0.2A"
+			(at 125.73 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "50V"
+			(at 125.73 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "efda3a00-3549-40bf-963c-c46bf741089b")
+		)
+		(pin "2"
+			(uuid "6ced5f6b-113b-4246-9605-5dcc30055c68")
+		)
+		(pin "1"
+			(uuid "2cf3043b-0516-46d5-887e-9bbfbf5a1e9f")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10656,6 +11188,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 121.92 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b1dc785-2c9a-4292-8ccd-c68c5afe908a")
+		(property "Reference" "#PWR033"
+			(at 121.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 194.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f875a6-30eb-4b24-a719-6c951a7ed455")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x06_P2.54mm")
 		(at 43.18 149.86 0)
 		(unit 1)
@@ -11316,6 +11915,85 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Resistor:100k_0402")
+		(at 114.3 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924f367c-28f7-4035-a799-ad6ccdb252b3")
+		(property "Reference" "R15"
+			(at 111.76 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 111.76 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
+			(at 118.618 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 123.19 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-25013"
+			(at 120.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1e50ede-b226-41c8-b66a-04f8d14da1b8")
+		)
+		(pin "1"
+			(uuid "f90f65be-dc68-40fa-9669-db5f65bf9019")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 220.98 135.89 0)
 		(unit 1)
@@ -11854,7 +12532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363_SC-70-6"
 			(at 119.38 149.86 0)
 			(effects
 				(font
@@ -13555,6 +14233,73 @@
 			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 114.3 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecca8771-4ee2-41ed-80cd-1792096c2724")
+		(property "Reference" "#PWR034"
+			(at 114.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 196.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5184131f-30fc-488f-8033-8ff3747aa464")
+		)
+		(instances
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
