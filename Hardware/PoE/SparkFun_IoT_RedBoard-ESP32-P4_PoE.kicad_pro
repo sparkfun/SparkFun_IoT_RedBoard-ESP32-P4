@@ -124,23 +124,27 @@
           ""
         ],
         [
+          "extra_footprint|131191000|115570000|2a9c4cb5-ea6f-446f-8979-572081b6b476|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "items_not_allowed|178975000|80855000|dd5f2f56-8874-4c70-b5cc-ad7447723b43|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|126905000|111070000|991726d3-ed02-441d-9eda-e542e9a54855|05b74c62-6e87-467f-ba28-95d927c8fbb1",
+          "silk_edge_clearance|126905000|111070000|991726d3-ed02-441d-9eda-e542e9a54855|bc2e2130-53de-4fbd-974e-0f8dee29c0b6",
           ""
         ],
         [
-          "silk_edge_clearance|126905000|120070000|991726d3-ed02-441d-9eda-e542e9a54855|ae563c7f-2c5e-4fac-8c73-05a3fa2e4e22",
+          "silk_edge_clearance|126905000|120070000|991726d3-ed02-441d-9eda-e542e9a54855|c324d620-5d3b-4986-bc2c-933ca202604d",
           ""
         ],
         [
-          "silk_edge_clearance|127000000|113070000|991726d3-ed02-441d-9eda-e542e9a54855|e227f4ea-a009-4462-a5c2-af685bd8fcd0",
+          "silk_edge_clearance|127000000|113070000|991726d3-ed02-441d-9eda-e542e9a54855|75495ecf-fdd1-46ad-8be5-b994bcc8e896",
           ""
         ],
         [
-          "silk_edge_clearance|127000000|118070000|991726d3-ed02-441d-9eda-e542e9a54855|2a55ab30-662b-4037-88f0-7a20d2a2ab00",
+          "silk_edge_clearance|127000000|118070000|991726d3-ed02-441d-9eda-e542e9a54855|2f4d05ca-c2a1-41a4-bd5d-391423df6dbe",
           ""
         ],
         [
@@ -148,11 +152,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|175545000|104298000|bcbdb53d-dc7f-4154-9d9a-5530e99705e6|df2c6ae6-6400-436f-b78a-7d704430e174",
+          "silk_edge_clearance|175545000|104298000|bcbdb53d-dc7f-4154-9d9a-5530e99705e6|467918b0-32cd-478a-a161-54c9df5c9440",
           ""
         ],
         [
-          "silk_edge_clearance|188902000|97610000|07c12716-e6c9-4046-a44b-ede31bd77b1a|2d838e38-d8b7-4b48-8aa2-64f23ef32aac",
+          "silk_edge_clearance|188902000|97610000|07c12716-e6c9-4046-a44b-ede31bd77b1a|a7db0ea8-32f0-4f66-bbe5-5e786bce736e",
           ""
         ],
         [

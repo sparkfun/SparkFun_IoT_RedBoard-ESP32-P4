@@ -5599,7 +5599,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-LED:LED_Red_0402"
+		(symbol "SparkFun-LED:LED_Red_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5626,7 +5626,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_0402_1005Metric_Red"
+			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -5635,7 +5635,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sunledusa.com/products/spec/XZMDK68W-2.pdf"
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SURCK.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -5653,7 +5653,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "DIO-16757"
+			(property "PROD_ID" "DIO-17976"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -5680,7 +5680,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Red_0402_0_1"
+			(symbol "LED_Red_0603_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -5742,7 +5742,7 @@
 					)
 				)
 			)
-			(symbol "LED_Red_0402_1_1"
+			(symbol "LED_Red_0603_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -17832,7 +17832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-LED:LED_Red_0402")
+		(lib_id "SparkFun-LED:LED_Red_0603")
 		(at 241.3 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17859,7 +17859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0402_1005Metric_Red"
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
 			(at 248.92 76.2 0)
 			(effects
 				(font
@@ -17868,7 +17868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZMDK68W-2.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SURCK.pdf"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -17886,7 +17886,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "DIO-16757"
+		(property "PROD_ID" "DIO-17976"
 			(at 246.38 76.2 0)
 			(effects
 				(font
