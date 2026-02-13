@@ -3232,7 +3232,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-xyz"
+			(property "PROD_ID" "IC-27917"
 				(at 0 -78.74 0)
 				(effects
 					(font
@@ -19827,7 +19827,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-xyz"
+		(property "PROD_ID" "IC-27917"
 			(at 119.38 200.66 0)
 			(effects
 				(font
