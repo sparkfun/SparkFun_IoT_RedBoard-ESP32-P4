@@ -10,7 +10,7 @@
 	(title_block
 		(title "SparkFun IoT RedBoard ESP32-P4 PoE")
 		(date "2026-02-06")
-		(rev "v01")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Dryw Wade")
 	)
@@ -7125,7 +7125,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "bc21f9d2-03f3-484e-b666-ed0bf9312ac7")
+			(uuid "014e6f6b-aab3-48d4-9833-8e31a4a6ee4e")
 		)
 		(pad "NC1" thru_hole oval
 			(at -4.318 5.095 270)
@@ -7189,7 +7189,7 @@
 			(pinfunction "VBUS")
 			(pintype "power_out")
 			(thermal_bridge_angle 0)
-			(uuid "50b0984e-afb6-476f-88ed-f49346c2ecf0")
+			(uuid "87e06a1c-a57e-40d6-9f9e-59bef1012a00")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/USB-C_16.step"
@@ -30429,7 +30429,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "81045004-0757-4ecb-ac05-f48ea6167551")
+			(uuid "c6b0031e-5bff-44d0-ac18-195869ee5011")
 		)
 		(pad "NC1" thru_hole oval
 			(at -4.318 5.095 270)
@@ -30493,7 +30493,7 @@
 			(pinfunction "VBUS")
 			(pintype "power_out")
 			(thermal_bridge_angle 0)
-			(uuid "758d1a89-472e-4ef4-866f-9f3cd8b4408a")
+			(uuid "eaa42b7a-e9d9-4e40-8027-e021535fcd28")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/USB-C_16.step"
@@ -32099,7 +32099,7 @@
 			(pinfunction "PWR")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "f70dfe70-0493-475f-8333-ace8a9fd7592")
+			(uuid "e06f63b5-e82e-48b4-bbdc-1e665b1984b8")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/Power_Jack_SMD.step"
@@ -60532,6 +60532,56 @@
 		(embedded_fonts no)
 	)
 	(gr_line
+		(start 146.05 118.745)
+		(end 146.685 118.745)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4eb6a76-8318-4240-b47d-490985056576")
+	)
+	(gr_line
+		(start 146.3675 118.4275)
+		(end 146.3675 119.0625)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cd0ccf6-f5a3-46ec-b59b-1a28e074ad0e")
+	)
+	(gr_line
+		(start 150.495 118.745)
+		(end 151.13 118.745)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec9b9111-1f48-47a2-baf3-ff1252dc7b07")
+	)
+	(gr_line
+		(start 176.53 118.618)
+		(end 176.53 119.38)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd164b63-2edd-4e99-bfd8-6362b2f540e6")
+	)
+	(gr_line
+		(start 179.07 77.47)
+		(end 179.07 81.534)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9ccc6ea-d531-4565-aac2-9489c216af97")
+	)
+	(gr_line
 		(start 179.07 92.71)
 		(end 179.07 88.646)
 		(stroke
@@ -60552,36 +60602,6 @@
 		(uuid "6b604bd3-49b0-4db8-9ac4-4426ffac6a25")
 	)
 	(gr_line
-		(start 146.3675 118.4275)
-		(end 146.3675 119.0625)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7cd0ccf6-f5a3-46ec-b59b-1a28e074ad0e")
-	)
-	(gr_line
-		(start 191.77 118.618)
-		(end 191.77 119.38)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "81d8b2a5-5c00-4a3c-8b01-a135452fac4e")
-	)
-	(gr_line
-		(start 146.05 118.745)
-		(end 146.685 118.745)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a4eb6a76-8318-4240-b47d-490985056576")
-	)
-	(gr_line
 		(start 181.356 118.618)
 		(end 176.53 118.618)
 		(stroke
@@ -60590,16 +60610,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c5d53b48-48b4-42b2-b160-7e83a04b6f4e")
-	)
-	(gr_line
-		(start 192.786 77.47)
-		(end 179.07 77.47)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d452b260-2e13-4f62-9a4a-36a62ac22e37")
 	)
 	(gr_line
 		(start 186.944 118.618)
@@ -60612,24 +60622,24 @@
 		(uuid "d7638613-9c32-4a6a-9f15-423dc2bf9a3b")
 	)
 	(gr_line
-		(start 179.07 77.47)
-		(end 179.07 81.534)
+		(start 191.77 118.618)
+		(end 191.77 119.38)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d9ccc6ea-d531-4565-aac2-9489c216af97")
+		(uuid "81d8b2a5-5c00-4a3c-8b01-a135452fac4e")
 	)
 	(gr_line
-		(start 150.495 118.745)
-		(end 151.13 118.745)
+		(start 192.786 77.47)
+		(end 179.07 77.47)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ec9b9111-1f48-47a2-baf3-ff1252dc7b07")
+		(uuid "d452b260-2e13-4f62-9a4a-36a62ac22e37")
 	)
 	(gr_line
 		(start 192.786 77.47)
@@ -60641,16 +60651,6 @@
 		(layer "F.SilkS")
 		(uuid "f0376207-1a80-49a0-acbe-7815e174f670")
 	)
-	(gr_line
-		(start 176.53 118.618)
-		(end 176.53 119.38)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "fd164b63-2edd-4e99-bfd8-6362b2f540e6")
-	)
 	(gr_rect
 		(start 154.178 124.333)
 		(end 155.702 125.603)
@@ -60661,6 +60661,16 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "1c7a7abf-198f-40b6-81f3-3123489d715b")
+	)
+	(gr_line
+		(start 176.53 119.888)
+		(end 176.53 120.65)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a4b06ebf-6617-4505-936a-10c7cd274c00")
 	)
 	(gr_line
 		(start 181.356 119.888)
@@ -60683,16 +60693,6 @@
 		(uuid "69441761-8530-4d7f-bef6-5e89e1c122b3")
 	)
 	(gr_line
-		(start 176.53 119.888)
-		(end 176.53 120.65)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "a4b06ebf-6617-4505-936a-10c7cd274c00")
-	)
-	(gr_line
 		(start 191.77 119.888)
 		(end 191.77 120.65)
 		(stroke
@@ -60702,7 +60702,7 @@
 		(layer "B.SilkS")
 		(uuid "bc2269c7-3dec-468b-aee6-997a6bbbe3a0")
 	)
-	(gr_text "v01"
+	(gr_text "v10"
 		(at 128.778 125.984 0)
 		(layer "B.Cu" knockout)
 		(uuid "3c322aac-72fa-464e-a60f-a1d3fef083b6")
@@ -60715,46 +60715,10 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "No Clean Process"
-		(at 226.06 182.88 0)
-		(layer "Eco1.User")
-		(uuid "274ecb59-f4c6-423b-802f-0a919616f5f9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Inner Copper Weight: 0.5oz"
-		(at 226.06 186.69 0)
-		(layer "Eco1.User")
-		(uuid "2858baea-d1cb-450e-a190-d2dfb264688f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Layers: 4"
 		(at 195.530892 182.88 0)
 		(layer "Eco1.User")
 		(uuid "3e3e79eb-b788-47f5-881c-1fb99efebd70")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Silkscreen Color: White"
-		(at 195.58 180.975 0)
-		(layer "Eco1.User")
-		(uuid "408794df-6a1f-4d49-ad77-af2bb4848f3a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60775,34 +60739,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Material: TG135"
-		(at 226.06 180.975 0)
+	(gr_text "Silkscreen Color: White"
+		(at 195.58 180.975 0)
 		(layer "Eco1.User")
-		(uuid "4d08fef1-8855-4d24-8630-784a96fa9f21")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Controlled Impedance: JLC04161H-7628"
-		(at 226.06 179.07 0)
-		(layer "Eco1.User")
-		(uuid "4e581c9e-1bc2-4fb0-8305-f1f403036b39")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Outer Copper Weight: 1oz"
-		(at 226.06 184.785 0)
-		(layer "Eco1.User")
-		(uuid "8323c34b-eb6a-43a8-9e82-056debb9a918")
+		(uuid "408794df-6a1f-4d49-ad77-af2bb4848f3a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60827,6 +60767,66 @@
 		(at 195.58 186.69 0)
 		(layer "Eco1.User")
 		(uuid "bd7a27a4-955e-4d56-8275-86699208e261")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Controlled Impedance: JLC04161H-7628"
+		(at 226.06 179.07 0)
+		(layer "Eco1.User")
+		(uuid "4e581c9e-1bc2-4fb0-8305-f1f403036b39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Material: TG135"
+		(at 226.06 180.975 0)
+		(layer "Eco1.User")
+		(uuid "4d08fef1-8855-4d24-8630-784a96fa9f21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "No Clean Process"
+		(at 226.06 182.88 0)
+		(layer "Eco1.User")
+		(uuid "274ecb59-f4c6-423b-802f-0a919616f5f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Outer Copper Weight: 1oz"
+		(at 226.06 184.785 0)
+		(layer "Eco1.User")
+		(uuid "8323c34b-eb6a-43a8-9e82-056debb9a918")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Inner Copper Weight: 0.5oz"
+		(at 226.06 186.69 0)
+		(layer "Eco1.User")
+		(uuid "2858baea-d1cb-450e-a190-d2dfb264688f")
 		(effects
 			(font
 				(size 1.27 1.27)

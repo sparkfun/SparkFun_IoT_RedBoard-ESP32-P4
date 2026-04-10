@@ -7,7 +7,7 @@
 	(title_block
 		(title "SparkFun IoT RedBoard ESP32-P4 PoE")
 		(date "2026-02-06")
-		(rev "v01")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Dryw Wade")
 	)
@@ -12785,7 +12785,7 @@
 			(uuid "ac0017cb-d8c2-4b2c-9d49-056d048db0f7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR091")
 					(unit 1)
@@ -12855,7 +12855,7 @@
 			(uuid "cdae7663-3b15-4959-a5d2-63d69beba89b")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "JP6")
 					(unit 1)
@@ -12951,7 +12951,7 @@
 			(uuid "e718f1f1-d3a8-402b-b5c6-25c4ac4d05a3")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C9")
 					(unit 1)
@@ -13014,7 +13014,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST2")
 					(unit 1)
@@ -13081,7 +13081,7 @@
 			(uuid "461dd56e-bb5b-4364-8cb1-0cfa3f8e1cc1")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR078")
 					(unit 1)
@@ -13148,7 +13148,7 @@
 			(uuid "b50894fb-5f5b-43fb-9591-52032e3f2751")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR065")
 					(unit 1)
@@ -13245,7 +13245,7 @@
 			(uuid "2f8360e2-b046-42fb-813e-8d29fa12bec4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C33")
 					(unit 1)
@@ -13342,7 +13342,7 @@
 			(uuid "f5122f7b-2c3c-4ff7-8325-ed7689dbecc4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C23")
 					(unit 1)
@@ -13409,7 +13409,7 @@
 			(uuid "c0a7d3a1-5d83-45bc-b6db-84f5e6a920fb")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR014")
 					(unit 1)
@@ -13476,7 +13476,7 @@
 			(uuid "24fb60ee-1faf-49f0-ba7d-406105cd4ff2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR053")
 					(unit 1)
@@ -13543,7 +13543,7 @@
 			(uuid "88c09fa8-7bf9-4f54-8814-3e36b238edb2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR026")
 					(unit 1)
@@ -13610,7 +13610,7 @@
 			(uuid "4ae45475-103a-4fef-a3c3-bb981f431ebd")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR082")
 					(unit 1)
@@ -13707,7 +13707,7 @@
 			(uuid "388bf609-33ca-450e-9c58-bb3f19075821")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C24")
 					(unit 1)
@@ -13774,7 +13774,7 @@
 			(uuid "dbd6a2c7-df0f-407e-9dcb-803db144347e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR092")
 					(unit 1)
@@ -13841,7 +13841,7 @@
 			(uuid "7640344b-aace-476c-bad1-47627d352385")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR066")
 					(unit 1)
@@ -13908,7 +13908,7 @@
 			(uuid "c1dd9a50-4210-49c6-8a3c-cddf204b5f37")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR083")
 					(unit 1)
@@ -13975,7 +13975,7 @@
 			(uuid "63d5b63d-4514-466c-977d-8c38639b4258")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR069")
 					(unit 1)
@@ -14042,7 +14042,7 @@
 			(uuid "57f93a06-ee5f-4bc3-ade1-bd779884025b")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR052")
 					(unit 1)
@@ -14109,7 +14109,7 @@
 			(uuid "3b2eb153-e2c6-45a5-b907-baa7327c6e39")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0156")
 					(unit 1)
@@ -14176,7 +14176,7 @@
 			(uuid "502bd59a-7293-495f-b5e1-72ce2f7c2302")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR076")
 					(unit 1)
@@ -14243,7 +14243,7 @@
 			(uuid "5195d1ed-6d1e-4451-a9c9-f5fc9bda17fc")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR062")
 					(unit 1)
@@ -14307,7 +14307,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G1")
 					(unit 1)
@@ -14374,7 +14374,7 @@
 			(uuid "ea8e928d-dd66-48d8-ad9b-ee987d5b8aea")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR067")
 					(unit 1)
@@ -14471,7 +14471,7 @@
 			(uuid "fe09004a-158b-429a-b9ab-23f83d673143")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C46")
 					(unit 1)
@@ -14549,7 +14549,7 @@
 			(uuid "ec5536d3-d7fe-42ea-b837-921d65416033")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R27")
 					(unit 1)
@@ -14646,7 +14646,7 @@
 			(uuid "8684d032-a61e-41f0-b6fe-3a3ef98484ea")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C28")
 					(unit 1)
@@ -14777,7 +14777,7 @@
 			(uuid "6a7142b7-1f7e-43ff-a091-59f928fc0fe6")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR017")
 					(unit 1)
@@ -14874,7 +14874,7 @@
 			(uuid "48efaecf-60d7-4e1b-9107-9561d738f483")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C27")
 					(unit 1)
@@ -14941,7 +14941,7 @@
 			(uuid "07e557eb-a8aa-4495-9f89-4bfa4e90852d")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR094")
 					(unit 1)
@@ -15037,7 +15037,7 @@
 			(uuid "e320f28f-c4d6-4ccb-807c-ae3b8687008c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C6")
 					(unit 1)
@@ -15134,7 +15134,7 @@
 			(uuid "1e48f5b6-8127-4d1b-8f23-d02d1445d7ce")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C47")
 					(unit 1)
@@ -15201,7 +15201,7 @@
 			(uuid "eaf7922c-48e7-4364-9642-7139c16060f8")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR080")
 					(unit 1)
@@ -15269,7 +15269,7 @@
 			(uuid "86de3ebc-91f6-4342-a2d5-49d55272c85a")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "JP5")
 					(unit 1)
@@ -15373,7 +15373,7 @@
 			(uuid "78dce5b7-67b5-42b2-963e-e7a2f63044ae")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "U5")
 					(unit 1)
@@ -15440,7 +15440,7 @@
 			(uuid "2500b5d0-b170-4ce6-88ec-eb9755ab0061")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR088")
 					(unit 1)
@@ -15507,7 +15507,7 @@
 			(uuid "bdcc78f0-6155-4a06-807b-8fad8055f104")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR061")
 					(unit 1)
@@ -15574,7 +15574,7 @@
 			(uuid "e8e01ffe-8c08-4f96-945f-020afdaaf54c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR079")
 					(unit 1)
@@ -15641,7 +15641,7 @@
 			(uuid "c5e89083-d5e9-4401-83b5-a848aa24d95e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR031")
 					(unit 1)
@@ -15708,7 +15708,7 @@
 			(uuid "6e83ef26-d015-4860-9de9-b2712fffcac6")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR068")
 					(unit 1)
@@ -15775,7 +15775,7 @@
 			(uuid "84abf0fb-a4f3-4236-b081-2904f704d71a")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR050")
 					(unit 1)
@@ -15838,7 +15838,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST4")
 					(unit 1)
@@ -15935,7 +15935,7 @@
 			(uuid "310dc23c-dde1-4122-b432-8d5272fdfbca")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C32")
 					(unit 1)
@@ -16019,7 +16019,7 @@
 			(uuid "0abc6b24-f3cb-4751-9afa-5d1d5166a8d5")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "L1")
 					(unit 1)
@@ -16083,7 +16083,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G4")
 					(unit 1)
@@ -16150,7 +16150,7 @@
 			(uuid "39c8f109-de70-4860-b51b-8d61e68cc788")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR051")
 					(unit 1)
@@ -16248,7 +16248,7 @@
 			(uuid "f486f088-0c19-4d67-8df8-ecab44d1995a")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "U4")
 					(unit 1)
@@ -16315,7 +16315,7 @@
 			(uuid "05a232d0-d239-46a0-ba8a-2a5b580b9b2c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR056")
 					(unit 1)
@@ -16382,7 +16382,7 @@
 			(uuid "cb3e8822-a380-4bc3-a97b-0c97f431d1c9")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR060")
 					(unit 1)
@@ -16449,7 +16449,7 @@
 			(uuid "5da86430-f038-4b5b-a15e-0c0fc173e02f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR093")
 					(unit 1)
@@ -16546,7 +16546,7 @@
 			(uuid "0f39d7ce-0e59-4a98-ae67-d3fc32a38c78")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C29")
 					(unit 1)
@@ -16609,7 +16609,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST1")
 					(unit 1)
@@ -16676,7 +16676,7 @@
 			(uuid "42855d90-5aaa-4eaf-9265-fa63f0ab5753")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR07")
 					(unit 1)
@@ -16743,7 +16743,7 @@
 			(uuid "a1e97b7b-c8d7-4862-b46a-133eb2f16f8e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0125")
 					(unit 1)
@@ -16840,7 +16840,7 @@
 			(uuid "9820d870-aaca-4f0d-ba3e-d1bb8f19d3a2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C43")
 					(unit 1)
@@ -16937,7 +16937,7 @@
 			(uuid "61138067-c490-4a1a-9798-10c81199cd6e")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C26")
 					(unit 1)
@@ -17034,7 +17034,7 @@
 			(uuid "c74b6d5a-5fda-49ed-af6f-1ff166418083")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C19")
 					(unit 1)
@@ -17101,7 +17101,7 @@
 			(uuid "190385e2-6162-4097-8b48-c5b8cef168e3")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR063")
 					(unit 1)
@@ -17168,7 +17168,7 @@
 			(uuid "208debdc-8e6a-4f88-be18-cecb469ebf20")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0132")
 					(unit 1)
@@ -17235,7 +17235,7 @@
 			(uuid "5b1ffbdd-a939-422c-8ce7-00df50055f1c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR070")
 					(unit 1)
@@ -17332,7 +17332,7 @@
 			(uuid "8a4dd7ed-c543-4c1b-978d-3d376ba5c6f2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C35")
 					(unit 1)
@@ -17399,7 +17399,7 @@
 			(uuid "6bee07cc-f710-4063-b0bd-6cc6d5039530")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR087")
 					(unit 1)
@@ -17496,7 +17496,7 @@
 			(uuid "0ad56f6f-8a51-42f3-9b5a-4bd68fda0ff8")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C40")
 					(unit 1)
@@ -17563,7 +17563,7 @@
 			(uuid "5c1ce981-b0e6-4e3e-b1e1-6deba282af97")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0126")
 					(unit 1)
@@ -17630,7 +17630,7 @@
 			(uuid "fd707f65-e43e-44a2-8453-d4e4d233dac7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0151")
 					(unit 1)
@@ -17726,7 +17726,7 @@
 			(uuid "08436ef0-3c07-4700-ab04-48e96a906a68")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C8")
 					(unit 1)
@@ -17793,7 +17793,7 @@
 			(uuid "0d07367a-e1ff-498d-a0f9-f13b0eee4e16")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR057")
 					(unit 1)
@@ -17860,7 +17860,7 @@
 			(uuid "e3103a32-8c71-403c-924f-f2dccca5837a")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0154")
 					(unit 1)
@@ -17927,7 +17927,7 @@
 			(uuid "6cdf6c64-03ad-4792-b96b-238876e9d102")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR015")
 					(unit 1)
@@ -18006,7 +18006,7 @@
 			(uuid "9c6b1cc3-37ea-4dee-b510-914e8e7281af")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "D6")
 					(unit 1)
@@ -18103,7 +18103,7 @@
 			(uuid "6d0037ba-e085-49c3-9648-45900a3cf1d1")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C45")
 					(unit 1)
@@ -18167,7 +18167,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID4")
 					(unit 1)
@@ -18231,7 +18231,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST3")
 					(unit 1)
@@ -18328,7 +18328,7 @@
 			(uuid "c2b9a435-fffa-4892-bb35-491f2437fe77")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C37")
 					(unit 1)
@@ -18395,7 +18395,7 @@
 			(uuid "16ebbc63-bf4f-46a2-b310-d419a709c503")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR064")
 					(unit 1)
@@ -18462,7 +18462,7 @@
 			(uuid "5a1ca429-d973-4e5e-873c-9a059c327f36")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR098")
 					(unit 1)
@@ -18541,7 +18541,7 @@
 			(uuid "c1044da6-a50f-4a4b-8993-b6a0f5774922")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R32")
 					(unit 1)
@@ -18638,7 +18638,7 @@
 			(uuid "de241e8b-9f38-4d4f-a5d0-b4d05a84b719")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C22")
 					(unit 1)
@@ -18705,7 +18705,7 @@
 			(uuid "be3d2a60-3324-4d24-a88f-c5d12954c54e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR030")
 					(unit 1)
@@ -18802,7 +18802,7 @@
 			(uuid "3c9354c8-58d7-40fc-bbf7-1e8d10d9cf58")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C54")
 					(unit 1)
@@ -18869,7 +18869,7 @@
 			(uuid "342e6330-9dc4-4628-9059-b1029a918465")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0142")
 					(unit 1)
@@ -18936,7 +18936,7 @@
 			(uuid "ad143200-9878-42fc-818d-59e4e4e784af")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0138")
 					(unit 1)
@@ -19000,7 +19000,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID2")
 					(unit 1)
@@ -19067,7 +19067,7 @@
 			(uuid "c4c99bba-ea15-4b22-b890-4b4503be1183")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR086")
 					(unit 1)
@@ -19134,7 +19134,7 @@
 			(uuid "38da0c3d-5f25-4026-b6a6-3aee2e71d8ad")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR055")
 					(unit 1)
@@ -19265,7 +19265,7 @@
 			(uuid "61433893-bd11-4cf8-a0ab-506fa5d3b245")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0155")
 					(unit 1)
@@ -19344,7 +19344,7 @@
 			(uuid "ef935f60-a13d-414f-924f-f452c4945563")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "SW1")
 					(unit 1)
@@ -19440,7 +19440,7 @@
 			(uuid "7f37080d-b93b-4a26-bd50-5c43b1458c88")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C50")
 					(unit 1)
@@ -19537,7 +19537,7 @@
 			(uuid "45dd4298-7321-493a-8f3a-9655a8f34b16")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C42")
 					(unit 1)
@@ -19604,7 +19604,7 @@
 			(uuid "bba7f459-97ec-4a39-b7e3-08f11f15fd13")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0150")
 					(unit 1)
@@ -19700,7 +19700,7 @@
 			(uuid "7c6e0b49-7208-4e5b-b211-d002d034af48")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C7")
 					(unit 1)
@@ -19767,7 +19767,7 @@
 			(uuid "1db1a4df-798d-4c9e-8f91-0a7f74995477")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR074")
 					(unit 1)
@@ -20152,7 +20152,7 @@
 			(uuid "429d418b-228b-42c3-990b-181c52a361f9")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "U1")
 					(unit 1)
@@ -20219,7 +20219,7 @@
 			(uuid "006667bb-bba9-4146-97dd-ec0a90088d6f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR089")
 					(unit 1)
@@ -20286,7 +20286,7 @@
 			(uuid "69689034-cb97-4e52-9969-87d13d839e35")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR022")
 					(unit 1)
@@ -20383,7 +20383,7 @@
 			(uuid "29101fd4-a26c-4b61-a3ef-c9c82f9e4701")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C39")
 					(unit 1)
@@ -20447,7 +20447,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G3")
 					(unit 1)
@@ -20544,7 +20544,7 @@
 			(uuid "51586557-e0c3-420c-8a12-1a37efd9d925")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C34")
 					(unit 1)
@@ -20623,7 +20623,7 @@
 			(uuid "b973269a-a836-4e9a-97e4-ada92eb3ea74")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "SW2")
 					(unit 1)
@@ -20690,7 +20690,7 @@
 			(uuid "743f950c-e580-4a11-997a-23ed4c134a85")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR095")
 					(unit 1)
@@ -20769,7 +20769,7 @@
 			(uuid "8cb6d34b-4665-4753-8b99-b15296c8c778")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R26")
 					(unit 1)
@@ -20833,7 +20833,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID1")
 					(unit 1)
@@ -20900,7 +20900,7 @@
 			(uuid "f42c5aae-32b3-44f9-9135-f15998427548")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0152")
 					(unit 1)
@@ -20967,7 +20967,7 @@
 			(uuid "f03f1c7c-5fce-46f6-bf73-4accf59e86f7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR016")
 					(unit 1)
@@ -21046,7 +21046,7 @@
 			(uuid "69accfcf-6183-4cb9-8d4e-19182824b6c0")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R33")
 					(unit 1)
@@ -21143,7 +21143,7 @@
 			(uuid "a3054995-de50-4ec9-9f5f-fa27cac6d416")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C20")
 					(unit 1)
@@ -21207,7 +21207,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G2")
 					(unit 1)
@@ -21303,7 +21303,7 @@
 			(uuid "981f63fd-1242-4b04-8e6f-496c29fa0e0b")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C25")
 					(unit 1)
@@ -21370,7 +21370,7 @@
 			(uuid "5158952d-c93c-43aa-9f90-da5b97bf16c0")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0100")
 					(unit 1)
@@ -21467,7 +21467,7 @@
 			(uuid "d0c369a5-aeb9-40f9-91e9-e07b1b4dad17")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C41")
 					(unit 1)
@@ -21600,7 +21600,7 @@
 			(uuid "dc605969-3145-4b9c-8234-dcd7809df8d4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR029")
 					(unit 1)
@@ -21697,7 +21697,7 @@
 			(uuid "3bb95a4d-9081-42fd-a9f1-be1ef332329f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C30")
 					(unit 1)
@@ -21794,7 +21794,7 @@
 			(uuid "6f52fbca-84d3-460c-89c0-a713817d195a")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C51")
 					(unit 1)
@@ -21861,7 +21861,7 @@
 			(uuid "1cc6ecf0-f937-4c27-bcde-6b5616176894")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR019")
 					(unit 1)
@@ -21958,7 +21958,7 @@
 			(uuid "5e9563e6-21f5-4965-8a36-512334b9040b")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C18")
 					(unit 1)
@@ -22025,7 +22025,7 @@
 			(uuid "992fa42c-17c1-460a-a592-fc23b44f4814")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR013")
 					(unit 1)
@@ -22104,7 +22104,7 @@
 			(uuid "cc040cf8-adc4-483e-b2c0-f4cdd508fcd4")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R38")
 					(unit 1)
@@ -22171,7 +22171,7 @@
 			(uuid "236e5ad2-9efd-4a3c-aedc-ab6ecc2b7723")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR085")
 					(unit 1)
@@ -22238,7 +22238,7 @@
 			(uuid "06c80507-bbc5-4cd1-b60c-91925f3cb501")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0157")
 					(unit 1)
@@ -22335,7 +22335,7 @@
 			(uuid "23eec3bc-fc03-47c4-a95d-d1ea54ef6b8c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C31")
 					(unit 1)
@@ -22402,7 +22402,7 @@
 			(uuid "b41b88c2-1990-4228-a966-5ed638f43a73")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR054")
 					(unit 1)
@@ -22466,7 +22466,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID3")
 					(unit 1)
@@ -22532,7 +22532,7 @@
 			(uuid "2e1743dc-856e-4755-9c27-5082e3a7fbd4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR059")
 					(unit 1)
@@ -22599,7 +22599,7 @@
 			(uuid "add86ccd-9a96-4286-85ed-1bd60c89dcf8")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0153")
 					(unit 1)
@@ -22696,7 +22696,7 @@
 			(uuid "86bd3ffe-cdeb-472b-b8e5-8486ba180bab")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R13")
 					(unit 1)
@@ -22793,7 +22793,7 @@
 			(uuid "ca48b192-14aa-4dbd-a23e-7617a4a5dc70")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C38")
 					(unit 1)
@@ -22860,7 +22860,7 @@
 			(uuid "83a4209e-00de-4d88-8a1a-b9b09afa5c4e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR023")
 					(unit 1)
@@ -22957,7 +22957,7 @@
 			(uuid "a861f6f1-be21-4b6d-a141-eadf27ed67e1")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C21")
 					(unit 1)
@@ -23041,7 +23041,7 @@
 			(uuid "f26990c8-fa15-4410-a48a-ab4af78a2aca")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "D5")
 					(unit 1)
@@ -23172,7 +23172,7 @@
 			(uuid "bc63a5a7-63d7-4084-8d36-17e0496b49e4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR081")
 					(unit 1)
@@ -23303,7 +23303,7 @@
 			(uuid "4456584b-f73f-4257-8ada-9f949b8b59f4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR020")
 					(unit 1)
@@ -23370,7 +23370,7 @@
 			(uuid "e45e2915-2fb0-4dee-91f4-ee93face3781")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0139")
 					(unit 1)
@@ -23437,7 +23437,7 @@
 			(uuid "0a5f6b79-92cb-46e9-a307-15d66b96853d")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR097")
 					(unit 1)
@@ -23504,7 +23504,7 @@
 			(uuid "239fd506-98aa-4959-985a-df7032529f53")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR099")
 					(unit 1)
@@ -23571,7 +23571,7 @@
 			(uuid "b8f1b239-cd52-46ab-b0fb-ff98cdde5b38")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0127")
 					(unit 1)
@@ -23654,7 +23654,7 @@
 			(uuid "7b0d4849-39a3-49bd-95c8-f169e5beb7da")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "Y1")
 					(unit 1)
@@ -23751,7 +23751,7 @@
 			(uuid "807812cc-0cd9-4ec4-ab5e-883bd8f106b7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C36")
 					(unit 1)
@@ -23818,7 +23818,7 @@
 			(uuid "e5309e03-1115-425c-817b-c2c1647a2266")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR072")
 					(unit 1)
@@ -23915,7 +23915,7 @@
 			(uuid "1d0fefba-fa78-4b81-ab90-77d468027426")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C44")
 					(unit 1)

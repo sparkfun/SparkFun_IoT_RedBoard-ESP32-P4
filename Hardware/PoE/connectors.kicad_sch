@@ -7,7 +7,7 @@
 	(title_block
 		(title "SparkFun IoT RedBoard ESP32-P4 PoE")
 		(date "2026-02-06")
-		(rev "v01")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Dryw Wade")
 	)
@@ -12733,7 +12733,7 @@
 			(uuid "713c799f-0710-498d-a2bf-5cf108d2472d")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0173")
 					(unit 1)
@@ -12800,7 +12800,7 @@
 			(uuid "6324342c-b46b-455a-8fda-eafb83518c84")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0158")
 					(unit 1)
@@ -12867,7 +12867,7 @@
 			(uuid "66bb374b-70e2-497c-9c59-6a2bbb0c1798")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR01")
 					(unit 1)
@@ -12947,7 +12947,7 @@
 			(uuid "a21a75bb-eb7b-4139-9bd1-5d8ef0bcac18")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J3")
 					(unit 1)
@@ -13110,7 +13110,7 @@
 			(uuid "bc5d28c8-8773-480e-80fe-50bbf5586f4f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "C48")
 					(unit 1)
@@ -13176,7 +13176,7 @@
 			(uuid "3138f699-781b-439a-b472-7a0e6110d7b1")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0143")
 					(unit 1)
@@ -13244,7 +13244,7 @@
 			(uuid "a3ebce59-bf61-407c-8bee-e69cbcd6630a")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "JP4")
 					(unit 1)
@@ -13311,7 +13311,7 @@
 			(uuid "5a67242b-0a9b-40b9-8d42-22a5fb5c0133")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR077")
 					(unit 1)
@@ -13390,7 +13390,7 @@
 			(uuid "0501e4d2-70aa-45dd-be4c-a292b599ce4a")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R40")
 					(unit 1)
@@ -13466,7 +13466,7 @@
 			(uuid "254d128f-b0ea-475b-a3dc-887dcec3e3da")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R20")
 					(unit 1)
@@ -13533,7 +13533,7 @@
 			(uuid "6c093b14-a1d8-48bd-95fc-cc69f2b676fe")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR027")
 					(unit 1)
@@ -13609,7 +13609,7 @@
 			(uuid "8daf5d46-862c-43be-842b-e4999bf4598c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R23")
 					(unit 1)
@@ -13688,7 +13688,7 @@
 			(uuid "c9941213-6006-4102-80b8-51304943dc95")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R31")
 					(unit 1)
@@ -13755,7 +13755,7 @@
 			(uuid "e34d0f7f-1689-43d8-805b-35b6bbe06047")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0164")
 					(unit 1)
@@ -14002,7 +14002,7 @@
 			(uuid "85c91843-8b82-4bc1-8905-25c2d362a950")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J2")
 					(unit 1)
@@ -14069,7 +14069,7 @@
 			(uuid "f33a190e-99ac-4034-a346-835e29891bac")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR084")
 					(unit 1)
@@ -14136,7 +14136,7 @@
 			(uuid "b4619ee6-9b06-4450-bbfe-1efff3e39e6d")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0168")
 					(unit 1)
@@ -14294,7 +14294,7 @@
 			(uuid "a07bae25-72c8-4223-acdd-b9f652158880")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "H1")
 					(unit 1)
@@ -14432,7 +14432,7 @@
 			(uuid "4a0fadd1-e301-47c9-b9f1-e7715a7345b7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J5")
 					(unit 1)
@@ -14566,7 +14566,7 @@
 			(uuid "106846fd-8cf3-48f8-97bb-cb2755b89c49")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0165")
 					(unit 1)
@@ -14704,7 +14704,7 @@
 			(uuid "3b5da8e1-9717-4cad-bdce-0f87643aaa5f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J6")
 					(unit 1)
@@ -14801,7 +14801,7 @@
 			(uuid "aead36ec-ecfc-48df-9dfa-899ab760723d")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R1")
 					(unit 1)
@@ -14900,7 +14900,7 @@
 			(uuid "9faf9f4d-4f2d-40f9-a041-250cdaed6015")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J9")
 					(unit 1)
@@ -14967,7 +14967,7 @@
 			(uuid "bea2f3ae-f65b-4258-b8fd-268627e9c523")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR096")
 					(unit 1)
@@ -15080,7 +15080,7 @@
 			(uuid "c43d0e1a-aa7d-4c56-ba7e-61ef12ee877e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J11")
 					(unit 1)
@@ -15177,7 +15177,7 @@
 			(uuid "06721c09-d244-4fd3-bbde-ab8183f7dee7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R4")
 					(unit 1)
@@ -15256,7 +15256,7 @@
 			(uuid "c6068ca1-03e5-40dc-a1ac-337699f276b1")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R46")
 					(unit 1)
@@ -15323,7 +15323,7 @@
 			(uuid "f93f1d01-25b2-4fff-9029-45c2abff6f44")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR04")
 					(unit 1)
@@ -15390,7 +15390,7 @@
 			(uuid "67b5f179-5138-4eb8-91e2-9cc913cc42e5")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0162")
 					(unit 1)
@@ -15475,7 +15475,7 @@
 			(uuid "5e93ad53-cac3-4b4f-897a-77ed460de6f8")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J14")
 					(unit 1)
@@ -15542,7 +15542,7 @@
 			(uuid "7268624b-b9fe-4e27-a2fe-815381842b97")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0160")
 					(unit 1)
@@ -15647,7 +15647,7 @@
 			(uuid "9d0d631d-4b3b-4560-9fb0-736e0295139f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J10")
 					(unit 1)
@@ -15714,7 +15714,7 @@
 			(uuid "80a68054-1c7b-4a42-8cb3-9ed4293058ca")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR03")
 					(unit 1)
@@ -15790,7 +15790,7 @@
 			(uuid "a72834e7-db8a-4f55-87ae-4e4146d5778b")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R22")
 					(unit 1)
@@ -15857,7 +15857,7 @@
 			(uuid "2fd8ea85-3d64-46e8-bc4c-b48529dd9d41")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR049")
 					(unit 1)
@@ -15990,7 +15990,7 @@
 			(uuid "0d2fe97c-07bf-432a-847a-548f1e910ef5")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR075")
 					(unit 1)
@@ -16057,7 +16057,7 @@
 			(uuid "7fc17e72-9059-4ad5-a3d2-98153232d44f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0104")
 					(unit 1)
@@ -16135,7 +16135,7 @@
 			(uuid "57ada74d-9cc6-4097-a7d7-9501bc0c0d54")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R36")
 					(unit 1)
@@ -16232,7 +16232,7 @@
 			(uuid "e87be0a5-f7ea-4706-950c-5e04c19ccc08")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R2")
 					(unit 1)
@@ -16329,7 +16329,7 @@
 			(uuid "ccc94031-3530-4d38-92cf-42fb1054ed3c")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R3")
 					(unit 1)
@@ -16429,7 +16429,7 @@
 			(uuid "fd257f28-1dbd-42cf-80eb-236d0d97f556")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "Q1")
 					(unit 1)
@@ -16496,7 +16496,7 @@
 			(uuid "2ce363b0-81f4-4442-8148-cc1f84366c52")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0159")
 					(unit 1)
@@ -16563,7 +16563,7 @@
 			(uuid "514dc610-5900-4662-bae7-29bf738f40c3")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR028")
 					(unit 1)
@@ -16630,7 +16630,7 @@
 			(uuid "a7e2ba9d-9e01-4879-97bc-8ce73f87b465")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR025")
 					(unit 1)
@@ -16764,7 +16764,7 @@
 			(uuid "636845f4-ff8e-40a1-98d0-2c9e94b11f7e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0123")
 					(unit 1)
@@ -16861,7 +16861,7 @@
 			(uuid "e2036395-7b01-4ec9-b2d5-4191c5aaa8b9")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R6")
 					(unit 1)
@@ -16928,7 +16928,7 @@
 			(uuid "214e8c13-20ab-42bc-82da-5f7e581af8e7")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0163")
 					(unit 1)
@@ -17027,7 +17027,7 @@
 			(uuid "28bbf994-fe4b-4b31-a150-f71ac7c85e94")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J8")
 					(unit 1)
@@ -17094,7 +17094,7 @@
 			(uuid "9e68b69d-c961-49e2-910c-b7799147d790")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0161")
 					(unit 1)
@@ -17161,7 +17161,7 @@
 			(uuid "d835baff-4753-4219-a920-00bce9aa652f")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0103")
 					(unit 1)
@@ -17328,7 +17328,7 @@
 			(uuid "7b149a44-031f-4d1a-a136-6464badc1b5d")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "D1")
 					(unit 1)
@@ -17407,7 +17407,7 @@
 			(uuid "1510c1c4-b313-4ae2-8304-6ed229c6edc2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R35")
 					(unit 1)
@@ -17474,7 +17474,7 @@
 			(uuid "9868558d-c852-4af3-a0df-0bed6b5790b9")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0133")
 					(unit 1)
@@ -17550,7 +17550,7 @@
 			(uuid "c5b9fbca-ea0c-406a-b2a5-de35c0e66dff")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R24")
 					(unit 1)
@@ -17617,7 +17617,7 @@
 			(uuid "080da3cd-dab3-470c-96d6-d6eb27fdb653")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0149")
 					(unit 1)
@@ -17717,7 +17717,7 @@
 			(uuid "1ce9b2a1-b8de-45a6-bea4-a77f199b626a")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "D2")
 					(unit 1)
@@ -17796,7 +17796,7 @@
 			(uuid "124e1113-11a7-4c8a-a1de-c65e608574b3")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R39")
 					(unit 1)
@@ -17889,7 +17889,7 @@
 			(uuid "01e6776b-352d-4e40-942d-d9b689298732")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J7")
 					(unit 1)
@@ -17967,7 +17967,7 @@
 			(uuid "dd2b98b2-7701-4755-bd40-6d391554e66f")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R34")
 					(unit 1)
@@ -18079,7 +18079,7 @@
 			(uuid "2062f07f-d3ba-4013-b9bf-6a07949121a4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J4")
 					(unit 1)
@@ -18146,7 +18146,7 @@
 			(uuid "14251010-af14-4fdf-a3fe-6eb8dfd1da45")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR018")
 					(unit 1)
@@ -18214,7 +18214,7 @@
 			(uuid "14a7b287-ad35-4d83-a93d-af5e146928fe")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "JP3")
 					(unit 1)
@@ -18293,7 +18293,7 @@
 			(uuid "84e95661-607e-41a8-bcce-123ab6e49086")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R37")
 					(unit 1)
@@ -18436,7 +18436,7 @@
 			(uuid "f3364e6f-bcd5-47a4-b45f-4fda62f06ad2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R25")
 					(unit 1)
@@ -18569,7 +18569,7 @@
 			(uuid "02092274-d72d-4ec8-a01e-0584a9a3c364")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR046")
 					(unit 1)
@@ -18645,7 +18645,7 @@
 			(uuid "c6f2f8da-8ec6-4c61-82e0-2e061c45abd3")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R21")
 					(unit 1)
@@ -18741,7 +18741,7 @@
 			(uuid "6a5a512f-674f-4296-b43e-5d02883d1b27")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "C49")
 					(unit 1)
@@ -18886,7 +18886,7 @@
 			(uuid "21648257-5a45-4e60-87c0-8767ff34b8b8")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R30")
 					(unit 1)
@@ -19019,7 +19019,7 @@
 			(uuid "ccccecfc-72aa-44c7-b376-2788c8496e09")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR090")
 					(unit 1)
@@ -19086,7 +19086,7 @@
 			(uuid "c7f4a4c9-50b0-4cbe-b6e4-eef0c68a68c3")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR073")
 					(unit 1)
@@ -19183,7 +19183,7 @@
 			(uuid "b696f35d-533b-40da-b682-9166c9ef87c2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "R5")
 					(unit 1)
@@ -19250,7 +19250,7 @@
 			(uuid "14538f41-e119-4728-9d56-8f89796503f4")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR071")
 					(unit 1)
@@ -19383,7 +19383,7 @@
 			(uuid "36db2f48-f9c9-4c7b-a094-192cb839ea75")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0106")
 					(unit 1)
@@ -19450,7 +19450,7 @@
 			(uuid "fd6de42e-9c61-41be-990a-f6ee9fb283b2")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "#PWR0124")
 					(unit 1)
@@ -19541,7 +19541,7 @@
 			(uuid "3f6bdc23-ea5f-437c-89c6-1839f9816b0e")
 		)
 		(instances
-			(project "SparkFun_IoT_RedBoard_ESP32_P4_C5"
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "J1")
 					(unit 1)
@@ -19678,7 +19678,7 @@
 			(uuid "7083fd0f-a237-49ab-94a4-ef0f17108ca9")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/153c2adc-4b67-4ffd-a6b4-3b9462635c2e"
 					(reference "JP7")
 					(unit 1)
