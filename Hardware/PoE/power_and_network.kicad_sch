@@ -9824,7 +9824,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 149.86) (xy 48.26 149.86)
+			(xy 60.96 149.86) (xy 58.42 149.86)
 		)
 		(stroke
 			(width 0)
@@ -10994,16 +10994,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 139.7) (xy 60.96 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92cf3ebd-6c74-4154-9baf-7f4372b9ecd0")
-	)
-	(wire
-		(pts
 			(xy 60.96 71.12) (xy 55.88 71.12)
 		)
 		(stroke
@@ -11114,7 +11104,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 50.8 149.86)
+			(xy 60.96 147.32) (xy 60.96 149.86)
 		)
 		(stroke
 			(width 0)
@@ -11154,7 +11144,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 139.7) (xy 50.8 142.24)
+			(xy 60.96 139.7) (xy 60.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11461,16 +11451,6 @@
 			(type default)
 		)
 		(uuid "c09b74a0-0886-4763-a82a-2fc45d699037")
-	)
-	(wire
-		(pts
-			(xy 48.26 152.4) (xy 60.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0bd24f8-5dc2-4520-8c1b-f9ef84507e55")
 	)
 	(wire
 		(pts
@@ -11901,16 +11881,6 @@
 			(type default)
 		)
 		(uuid "fa16b9aa-d235-4820-aa74-35ad25a5b6fd")
-	)
-	(wire
-		(pts
-			(xy 60.96 147.32) (xy 60.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa499a04-87a5-4fc0-998e-732e9ff39db4")
 	)
 	(wire
 		(pts
@@ -12460,7 +12430,7 @@
 	)
 	(global_label "IO30{slash}MAC_RXD1"
 		(shape input)
-		(at 48.26 149.86 180)
+		(at 58.42 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12470,7 +12440,7 @@
 		)
 		(uuid "9aa4cf96-a239-424d-ab27-c17ae2c2c0ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.8534 149.86 0)
+			(at 40.0134 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12586,28 +12556,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ETH_LED2"
-		(shape input)
-		(at 48.26 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba18df93-4087-4448-a2f7-619e1901a389")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.2035 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17653,73 +17601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 60.96 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8562357d-c9c1-4615-bbf6-3d63e311ef82")
-		(property "Reference" "#PWR0175"
-			(at 60.96 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 60.96 135.89 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 60.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "927dd198-fb4d-403e-9df5-3a43908d7348")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:5V")
 		(at 71.12 25.4 0)
 		(unit 1)
@@ -20002,85 +19883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:2.2k_0402")
-		(at 60.96 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc31e901-b141-4776-82ca-3b7db1efa7aa")
-		(property "Reference" "R45"
-			(at 63.5 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 63.5 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
-			(at 65.278 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-25566"
-			(at 67.818 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2914cf4-db9d-4612-a602-91973be0fe11")
-		)
-		(pin "2"
-			(uuid "1add1498-ba5a-4bc6-93fe-64fc269dcc05")
-		)
-		(instances
-			(project "SparkFun_IoT_RedBoard-ESP32-P4_PoE"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/795662fa-cdd7-48ca-ba0a-8fd563c95ce1"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 251.46 81.28 0)
 		(unit 1)
@@ -21486,7 +21288,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 50.8 139.7 0)
+		(at 60.96 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21495,7 +21297,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed3af09a-e658-47a3-a78d-4d1e925dc705")
 		(property "Reference" "#PWR0174"
-			(at 50.8 143.51 0)
+			(at 60.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21504,7 +21306,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 50.8 135.89 0)
+			(at 60.96 135.89 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21513,7 +21315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 139.7 0)
+			(at 60.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21522,7 +21324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 139.7 0)
+			(at 60.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21531,7 +21333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 50.8 139.7 0)
+			(at 60.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22313,7 +22115,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:2.2k_0402")
-		(at 50.8 144.78 90)
+		(at 60.96 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22322,7 +22124,7 @@
 		(fields_autoplaced yes)
 		(uuid "feb9355f-e493-48e1-82e5-796bd8407a73")
 		(property "Reference" "R44"
-			(at 53.34 143.5099 90)
+			(at 63.5 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22331,7 +22133,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 53.34 146.0499 90)
+			(at 63.5 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22340,7 +22142,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
-			(at 55.118 144.78 0)
+			(at 65.278 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22349,7 +22151,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 59.69 144.78 0)
+			(at 69.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22358,7 +22160,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 144.78 0)
+			(at 72.39 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22367,7 +22169,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25566"
-			(at 57.658 144.78 0)
+			(at 67.818 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
