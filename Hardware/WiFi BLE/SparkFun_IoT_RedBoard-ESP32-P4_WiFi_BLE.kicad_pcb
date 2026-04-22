@@ -62274,7 +62274,7 @@
 		(start 187.96 91.44)
 		(end 187.96 89.535)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62284,7 +62284,7 @@
 		(start 187.96 78.74)
 		(end 186.69 78.74)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62294,7 +62294,7 @@
 		(start 168.91 92.71)
 		(end 168.91 88.646)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62314,7 +62314,7 @@
 		(start 191.77 118.618)
 		(end 191.77 119.38)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62324,7 +62324,7 @@
 		(start 187.96 91.44)
 		(end 186.69 91.44)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62344,7 +62344,7 @@
 		(start 187.96 80.645)
 		(end 187.96 78.74)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62354,7 +62354,7 @@
 		(start 181.356 118.618)
 		(end 176.53 118.618)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62364,7 +62364,7 @@
 		(start 192.786 77.47)
 		(end 168.91 77.47)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62374,7 +62374,7 @@
 		(start 186.944 118.618)
 		(end 191.77 118.618)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62384,7 +62384,7 @@
 		(start 168.91 77.47)
 		(end 168.91 81.534)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62404,7 +62404,7 @@
 		(start 176.53 118.618)
 		(end 176.53 119.38)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")

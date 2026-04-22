@@ -62905,7 +62905,7 @@
 		(start 191.77 118.618)
 		(end 191.77 119.38)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62925,7 +62925,7 @@
 		(start 181.356 118.618)
 		(end 176.53 118.618)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62935,7 +62935,7 @@
 		(start 186.944 118.618)
 		(end 191.77 118.618)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -62955,7 +62955,7 @@
 		(start 176.53 118.618)
 		(end 176.53 119.38)
 		(stroke
-			(width 0.15)
+			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
