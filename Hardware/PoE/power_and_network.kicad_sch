@@ -12247,7 +12247,7 @@
 			)
 		)
 	)
-	(global_label "IO35{slash}MAC_TXD1"
+	(global_label "IOB35{slash}MAC_TXD1"
 		(shape input)
 		(at 137.16 142.24 0)
 		(fields_autoplaced yes)

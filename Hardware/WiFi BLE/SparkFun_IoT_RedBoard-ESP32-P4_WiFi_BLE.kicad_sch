@@ -12144,7 +12144,7 @@
 			)
 		)
 	)
-	(global_label "IO35{slash}BOOT"
+	(global_label "IOB35"
 		(shape input)
 		(at 185.42 35.56 0)
 		(fields_autoplaced yes)
@@ -12430,7 +12430,7 @@
 			)
 		)
 	)
-	(global_label "IO36"
+	(global_label "IOB36"
 		(shape input)
 		(at 195.58 53.34 180)
 		(fields_autoplaced yes)
@@ -12958,7 +12958,7 @@
 			)
 		)
 	)
-	(global_label "IO36"
+	(global_label "IOB36"
 		(shape input)
 		(at 139.7 139.7 0)
 		(fields_autoplaced yes)
@@ -13002,7 +13002,7 @@
 			)
 		)
 	)
-	(global_label "IO35{slash}BOOT"
+	(global_label "IOB35"
 		(shape input)
 		(at 139.7 137.16 0)
 		(fields_autoplaced yes)
