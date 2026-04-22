@@ -37646,7 +37646,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bb2238c9-40fd-4a4c-803d-fe2635c32710")
+			(uuid "7e0b1880-650e-4efe-aebf-8e2ea7180418")
 		)
 		(fp_rect
 			(start -1.01 -0.8)
@@ -37657,7 +37657,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b3924ffc-599c-49ba-85ee-3f0f857d296d")
+			(uuid "3828ab0e-061a-44df-872f-47b83620dc3f")
 		)
 		(fp_poly
 			(pts
@@ -37669,7 +37669,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "521af9fe-8ff0-43e0-9460-ac2e3982a7d2")
+			(uuid "060659bd-315e-4dee-83bc-fd73674af7c1")
 		)
 		(fp_poly
 			(pts
@@ -37681,7 +37681,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "9207c8d4-b1b9-4eb0-8f74-a12447d7f7b5")
+			(uuid "8b7285d0-688e-4d8c-839c-abe00367eb3c")
 		)
 		(pad "1" smd rect
 			(at -0.9 0 270)
@@ -37702,6 +37702,17 @@
 			(uuid "433a7a27-20e2-474f-8a99-425968d48e86")
 		)
 		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Coil.3dshapes/Inductor_0806.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "SparkFun-Resistor:R_0402_1005Metric"
 		(layer "F.Cu")
