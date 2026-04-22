@@ -12300,7 +12300,7 @@
 			)
 		)
 	)
-	(global_label "IO23{slash}REF_50MHZ"
+	(global_label "IO32{slash}MAC_CLK"
 		(shape input)
 		(at 139.7 106.68 0)
 		(fields_autoplaced yes)
