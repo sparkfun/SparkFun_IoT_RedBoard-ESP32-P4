@@ -9205,6 +9205,16 @@
 		)
 		(uuid "30eea662-679a-4202-8865-0f95720b1e31")
 	)
+	(text "Peripheral power"
+		(exclude_from_sim no)
+		(at 257.81 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a6dddfc-e1cc-4b99-9afd-b83cb15920ea")
+	)
 	(text "Network - Ethernet and PoE"
 		(exclude_from_sim no)
 		(at 88.9 54.61 0)
@@ -9255,6 +9265,16 @@
 		)
 		(uuid "e2417d4c-ba5c-4b3e-ad6a-91fcfbb63abb")
 	)
+	(text "Charge current:\n455mA"
+		(exclude_from_sim no)
+		(at 243.84 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e421f57b-832a-4884-bc9a-eec9bc0a6496")
+	)
 	(text "Open CHG to disable\nbattery charging\nindicator LED"
 		(exclude_from_sim no)
 		(at 205.74 162.56 0)
@@ -9264,6 +9284,16 @@
 			)
 		)
 		(uuid "ec3bcb71-97ea-4a9f-b0b5-df0fa29a9cf0")
+	)
+	(text "System power"
+		(exclude_from_sim no)
+		(at 256.54 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff06ac6c-eedb-401f-b03a-0646b6453d3d")
 	)
 	(junction
 		(at 101.6 93.98)

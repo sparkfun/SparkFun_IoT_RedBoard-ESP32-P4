@@ -5604,6 +5604,26 @@
 		)
 		(uuid "30eea662-679a-4202-8865-0f95720b1e31")
 	)
+	(text "Peripheral power"
+		(exclude_from_sim no)
+		(at 257.81 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34413c46-8f2e-4354-b0dc-b6b0f5a61b79")
+	)
+	(text "System power"
+		(exclude_from_sim no)
+		(at 256.54 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4802485e-c6cb-4434-8ded-dc36f9877740")
+	)
 	(text "Power Flow"
 		(exclude_from_sim no)
 		(at 88.9 16.51 0)
@@ -5633,6 +5653,16 @@
 			)
 		)
 		(uuid "a9aeb08a-2764-4ee1-a624-431ae45d7f13")
+	)
+	(text "Charge current:\n455mA"
+		(exclude_from_sim no)
+		(at 243.84 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "deaa039d-83c7-47ad-aeca-acc78d0a47c1")
 	)
 	(text "Network - WiFi and BLE"
 		(exclude_from_sim no)
