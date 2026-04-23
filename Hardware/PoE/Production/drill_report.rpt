@@ -1,0 +1,33 @@
+Drill report for SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.kicad_pcb
+Created on 2026-04-23T11:48:15-0600
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  L2.Cu                     in1
+    L3 :  L3.Cu                     in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (3370 holes)
+    T2  0.600mm  0.0236"  (80 holes)  (with 80 slots)
+    T3  0.900mm  0.0354"  (140 holes)
+    T4  1.016mm  0.0400"  (320 holes)
+    T5  1.700mm  0.0669"  (20 holes)
+
+    Total plated holes count 3930
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T6  0.650mm  0.0256"  (40 holes)
+    T7  1.000mm  0.0394"  (20 holes)
+    T8  2.032mm  0.0800"  (20 holes)
+    T9  3.100mm  0.1220"  (40 holes)
+    T10  3.250mm  0.1280"  (20 holes)
+
+    Total unplated holes count 140

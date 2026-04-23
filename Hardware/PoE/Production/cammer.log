@@ -1,0 +1,21 @@
+2026-04-23 11:48:09,350 - cammer_logger - INFO - Running CAMmer
+2026-04-23 11:48:09,351 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2026-04-23 11:48:09,351 - cammer_logger - INFO - CAMMER START: 2026-04-23T11:48:09.351584
+2026-04-23 11:48:15,761 - cammer_logger - INFO - 
+START: 2026-04-23T11:48:09.351579
+Board saved by user.
+Zones filled by CAMmer.
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-F_Cu.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GTL
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-In1_Cu.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GL2
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-In2_Cu.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GL3
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-B_Cu.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GBL
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-F_Paste.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GTP
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-B_Paste.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GBP
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-F_Silkscreen.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GTO
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-B_Silkscreen.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GBO
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-F_Mask.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GTS
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-B_Mask.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GBS
+Renaming /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized-Edge_Cuts.gbr to /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.GKO
+Drill report: /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/drill_report.rpt
+
+2026-04-23 11:48:18,121 - cammer_logger - INFO - CAMmer complete

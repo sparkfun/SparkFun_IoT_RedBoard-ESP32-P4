@@ -1,0 +1,15 @@
+2026-04-23 11:46:55,241 - panelizer_logger - INFO - Running Panelizer
+2026-04-23 11:46:55,242 - panelizer_logger - INFO - ['--panelx', '374.000000', '--panely', '140.000000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '5.080000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2026-04-23 11:46:55,243 - panelizer_logger - INFO - PANELIZER START: 2026-04-23T11:46:55.243202
+2026-04-23 11:47:02,266 - panelizer_logger - WARNING - 
+START: 2026-04-23T11:46:55.243197
+Board saved by user.
+Gaps should be at least 0.3" for AOI.
+Zones filled by Panelizer.
+
+Board: /home/dryw/github/SparkFun_IoT_RedBoard-ESP32-P4/Hardware/PoE/Production/SparkFun_IoT_RedBoard-ESP32-P4_PoE_panelized.kicad_pcb
+Board dimensions: 68.68 x 58.52 mm.
+You can fit 5 x 2 boards on the panel.
+Zones refilled by Panelizer.
+
+2026-04-23 11:47:05,818 - panelizer_logger - INFO - Panelizer complete
