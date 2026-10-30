@@ -1,0 +1,13 @@
+diff --git a/configs/defconfig.esp32p4 b/configs/defconfig.esp32p4
+index c599e2f..6b3c8e5 100644
+--- a/configs/defconfig.esp32p4
++++ b/configs/defconfig.esp32p4
+@@ -5,7 +5,7 @@ CONFIG_SPIRAM=y
+ CONFIG_LWIP_TCP_SACK_OUT=y
+ 
+ # ESP-Hosted-MCU
+-CONFIG_SLAVE_IDF_TARGET_ESP32C6=y
++CONFIG_SLAVE_IDF_TARGET_ESP32C5=y
+ CONFIG_ESP_SDIO_BUS_WIDTH=4
+ CONFIG_ESP_SDIO_CLOCK_FREQ_KHZ=40000
+ CONFIG_ESP_SDIO_PIN_CMD=19

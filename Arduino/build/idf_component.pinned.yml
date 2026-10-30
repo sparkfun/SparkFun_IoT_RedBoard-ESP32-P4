@@ -1,0 +1,133 @@
+dependencies:
+  # Required IDF version
+  idf: ">=5.3"
+  espressif/esp32-camera:
+    version: "master"
+    git: https://github.com/espressif/esp32-camera.git
+    require: public
+    rules:
+      - if: "target in [esp32, esp32s2, esp32s3]"
+  espressif/esp-tflite-micro:
+    version: "==1.4.0"
+    require: public
+    rules:
+      - if: "target not in [esp32c2]"
+  espressif/esp-sr:
+    version: "==2.5.3"
+    rules:
+      - if: "target in [esp32s3, esp32p4]"
+  espressif/esp_matter:
+    version: "1.5"
+    require: public
+    rules:
+      - if: "target not in [esp32c2, esp32p4, esp32c61]"
+  espressif/esp_video:
+    version: "==2.4.1"
+    require: public
+    rules:
+      - if: "idf_version >= 5.4 && target in [esp32s3, esp32p4]"
+  # Pin every managed component to the stock arduino-esp32 3.3.12 esp32p4 versions
+  chmorgan/esp-libhelix-mp3:
+    version: "==1.0.3"
+    rules:
+      - if: "target == esp32p4"
+  espressif/cjson:
+    version: "==1.7.19~2"
+    rules:
+      - if: "target == esp32p4"
+  espressif/cmake_utilities:
+    version: "==0.5.3"
+    rules:
+      - if: "target == esp32p4"
+  espressif/dl_fft:
+    version: "==0.7.0"
+    rules:
+      - if: "target == esp32p4"
+  espressif/eppp_link:
+    version: "==1.1.6"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp-dl:
+    version: "==3.3.11"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp-dsp:
+    version: "==1.8.0"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp-modbus:
+    version: "==2.1.3"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp-nn:
+    version: "==1.3.2"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_cam_sensor:
+    version: "==2.4.0"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_h264:
+    version: "==1.3.8"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_hosted:
+    version: "==2.12.13"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_ipa:
+    version: "==2.3.0"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_modem:
+    version: "==2.1.0"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_new_jpeg:
+    version: "==1.0.2"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_sccb_intf:
+    version: "==0.0.9"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_serial_slave_link:
+    version: "==1.1.2"
+    rules:
+      - if: "target == esp32p4"
+  espressif/esp_wifi_remote:
+    version: "==1.6.4"
+    rules:
+      - if: "target == esp32p4"
+  espressif/lan867x:
+    version: "==2.1.0"
+    rules:
+      - if: "target == esp32p4"
+  espressif/lan86xx_common:
+    version: "==1.0.1"
+    rules:
+      - if: "target == esp32p4"
+  espressif/libsodium:
+    version: "==1.0.22~1"
+    rules:
+      - if: "target == esp32p4"
+  espressif/mdns:
+    version: "==1.13.1"
+    rules:
+      - if: "target == esp32p4"
+  espressif/network_provisioning:
+    version: "==1.0.2"
+    rules:
+      - if: "target == esp32p4"
+  espressif/usb_host_uvc:
+    version: "==2.5.2"
+    rules:
+      - if: "target == esp32p4"
+  espressif/wifi_remote_over_eppp:
+    version: "==0.3.3"
+    rules:
+      - if: "target == esp32p4"
+  joltwallet/littlefs:
+    version: "==1.22.3"
+    rules:
+      - if: "target == esp32p4"
