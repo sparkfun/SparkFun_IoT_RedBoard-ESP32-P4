@@ -3,9 +3,9 @@
 // Needs no external wiring. Results are printed as machine-readable lines:
 //   RESULT <name> <PASS|FAIL|SKIP|MANUAL> <detail>
 //   DONE pass=<n> fail=<n> skip=<n> boot=<n>
-// Serial commands: 'S' start tests (auto-starts after 10s), 'N' start without WiFi/BLE,
-// 'R' ESP.restart(), 'B' BOOT button test.
-// Driven by run_tests.py, which also checks the C5 comes back across hard and soft resets.
+// Serial commands (single keys, any case; '?' prints the menu): see printMenu().
+// The tests auto-start 10s after boot. Driven by run_tests.py, which sends 'S', 'N', 'R' and 'B'
+// and also checks the C5 comes back across hard and soft resets.
 
 #include <WiFi.h>
 #include <Wire.h>
@@ -224,7 +224,7 @@ static void testWiFi() {
 
 // ---------------------------------------------------------------- BLE (NimBLE over ESP-Hosted)
 static void testBLE() {
-  if (!BLEDevice::init("RedBoardP4-Test")) {
+  if (!BLEDevice::getInitialized() && !BLEDevice::init("RedBoardP4-Test")) {
     result("ble_init", "FAIL", "");
     return;
   }
@@ -280,6 +280,38 @@ static void runTests(bool network) {
   Serial.printf("DONE pass=%d fail=%d skip=%d boot=%lu\n", nPass, nFail, nSkip, bootCount);
 }
 
+// Runs one group of tests on its own, with BEGIN/DONE around it.
+static void runOne(const char *what, void (*test)()) {
+  nPass = nFail = nSkip = 0;
+  Serial.printf("BEGIN %s board=%s boot=%lu\n", what, ARDUINO_BOARD, bootCount);
+  test();
+  Serial.printf("DONE pass=%d fail=%d skip=%d boot=%lu\n", nPass, nFail, nSkip, bootCount);
+}
+
+static void printMenu() {
+  Serial.println();
+  Serial.println("RedBoard ESP32-P4 (WiFi/BLE) test - press a key:");
+  Serial.println("  s  run all tests");
+  Serial.println("  n  run all tests except WiFi/BLE");
+  Serial.println("  w  WiFi only (ESP-Hosted init, C5 version, scan)");
+  Serial.println("  l  BLE only (init, scan)");
+  Serial.println("  i  I2C scan and fuel gauge");
+  Serial.println("  d  SD card");
+  Serial.println("  c  RGB LED colour cycle");
+  Serial.println("  b  BOOT button (press it when prompted)");
+  Serial.println("  r  restart");
+  Serial.println("  ?  this menu");
+}
+
+// Reads one command key; ignores line endings so the IDE Serial Monitor can send "s\n".
+static int readCommand() {
+  while (Serial.available()) {
+    int c = Serial.read();
+    if (c != '\r' && c != '\n' && c != ' ') return tolower(c);
+  }
+  return -1;
+}
+
 void setup() {
   if (bootMagic != 0x52424434) {
     bootMagic = 0x52424434;
@@ -288,30 +320,43 @@ void setup() {
   bootCount++;
   Serial.begin(115200);
 
+  printMenu();
+  Serial.println("Running all tests in 10 s (press s to start now, n to skip WiFi/BLE)");
   bool network = true;
   uint32_t t0 = millis();
   while (millis() - t0 < 10000) {
-    int c = Serial.available() ? Serial.read() : -1;
-    if (c == 'S' || c == 'N') {
-      network = c == 'S';
+    int c = readCommand();
+    if (c == 's' || c == 'n') {
+      network = c == 's';
       break;
     }
     delay(10);
   }
   runTests(network);
+  Serial.println("Press ? for the menu");
 }
 
 void loop() {
-  if (!Serial.available()) return;
-  switch (Serial.read()) {
-    case 'S': runTests(true); break;
-    case 'N': runTests(false); break;
-    case 'B': testBootButton(); break;
-    case 'R':
+  int c = readCommand();
+  if (c < 0) return;
+  switch (c) {
+    case 's': runTests(true); break;
+    case 'n': runTests(false); break;
+    case 'w': runOne("wifi", testWiFi); break;
+    case 'l': runOne("ble", testBLE); break;
+    case 'i': runOne("i2c", testI2C); break;
+    case 'd': runOne("sd", testSD); break;
+    case 'c': runOne("rgb", testRGB); break;
+    case 'b': testBootButton(); break;
+    case 'r':
       Serial.println("RESTARTING");
       Serial.flush();
       delay(100);
       ESP.restart();
       break;
+    case '?':
+    case 'h': printMenu(); return;
+    default: Serial.printf("Unknown command '%c' - press ? for the menu\n", c); return;
   }
+  Serial.println("Press ? for the menu");
 }

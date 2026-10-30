@@ -17,6 +17,22 @@ python3 run_tests.py --port /dev/cu.usbmodem1301 --board poe   # PoE board
 
 Pass `--fqbn` if the board isn't installed as `esp32:esp32:sparkfun_esp32p4_iot_redboard_wifi` / `_poe`. `--soft`/`--hard` set the number of restarts of each kind.
 
+The sketches also work on their own from the Arduino IDE: upload, open the Serial Monitor at 115200 baud, and type a key and Enter (any case; line endings are ignored). They print a menu at boot and run all tests after 10 s; `?` shows the menu again.
+
+| Key | WiFi/BLE sketch | PoE sketch |
+|---|---|---|
+| `s` | Run all tests | Run all tests |
+| `n` | All tests except WiFi/BLE | All tests except Ethernet |
+| `w` / `l` | WiFi only / BLE only | |
+| `e` | | Ethernet only (link, DHCP, ping gateway and sparkfun.com) |
+| `p` / `g` | | Ping sparkfun.com (DNS, ping, TCP 443) / ping the gateway |
+| `a` | | Show link and IP address status |
+| `i` | I2C scan and fuel gauge | I2C scan and fuel gauge |
+| `d` / `c` | SD card / RGB LED | SD card / RGB LED |
+| `b` | BOOT button test | BOOT button test, only before Ethernet starts (restart, then `b` before `s`) |
+| `r` | Restart | Restart |
+| `?` | Menu | Menu |
+
 ## WiFi/BLE board
 
 | Test | Checks |
@@ -36,6 +52,7 @@ Pass `--fqbn` if the board isn't installed as `esp32:esp32:sparkfun_esp32p4_iot_
 
 | Test | Checks |
 |---|---|
+| Board tests | The same board tests as the WiFi/BLE board (defaults, pullups, VO4, I2C/fuel gauge, ADC, SD, RGB LED, BOOT button), run before Ethernet, except `c5_reset_released` (no C5; GPIO20 is the PHY reset). GPIO35 is also RMII TXD1, so `boot_io35_idle` and `boot_button` report SKIP once Ethernet is running. |
 | `eth_begin` | `ETH.begin()` with the variant defaults: DP83825I found over MDIO at address 0, RMII clock out on GPIO23 and looped back to GPIO32 (`ETH_RMII_CLK_IN`, needs the patch) |
 | `eth_link`, `eth_100mbps_full` | Link up within 10 s, autonegotiated to 100 Mbps full duplex |
 | `eth_dhcp` | DHCP lease within 15 s |
@@ -43,8 +60,8 @@ Pass `--fqbn` if the board isn't installed as `esp32:esp32:sparkfun_esp32p4_iot_
 | `dns_lookup` | `sparkfun.com` resolves |
 | `ping_sparkfun` | 5 pings to `sparkfun.com`, all answered. A network that blocks ICMP fails this even with a working link; check `tcp_sparkfun_443` then |
 | `tcp_sparkfun_443` | TCP connection to `sparkfun.com:443` |
-| Pin map | `static_assert`s on the RMII/MDIO pins (compile time) |
+| Pin map | `static_assert`s against the KiCad netlist, including the RMII/MDIO pins (compile time) |
 
-Tested 2026-10-30 on a PoE board on a wired office network: 5 of 5 boots passed (after upload, 2 `ESP.restart()`, 2 RTS resets). Every boot linked at 100 Mbps full duplex, got a DHCP lease in about 1 s, and got 5/5 ping replies from the gateway (under 1 ms) and from sparkfun.com (2-8 ms). With the same sketch built against an unpatched 3.3.12 core, `eth_begin` fails: `ETH.begin()` returns false and Ethernet never starts.
+Tested 2026-10-30 on a PoE board (ESP32-P4 rev v3.2) on a wired office network, full suite: 5 of 5 boots passed (after upload, 2 `ESP.restart()`, 2 RTS resets). All board tests passed (`sd_mount` SKIP without a card), and every boot linked at 100 Mbps full duplex, got a DHCP lease in 1-1.5 s, and got 5/5 ping replies from the gateway (under 1 ms) and from sparkfun.com (2-8 ms). The menu was also checked from the Arduino IDE Serial Monitor. With the same sketch built against an unpatched 3.3.12 core, `eth_begin` fails: `ETH.begin()` returns false and Ethernet never starts.
 
 On macOS, opening the USB Serial/JTAG port resets the P4 once, so the boot counter steps by 2 per run.

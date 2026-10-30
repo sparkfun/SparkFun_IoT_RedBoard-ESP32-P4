@@ -101,7 +101,7 @@ def run_suite(port, timeout=90.0, boot_button=False, network=True):
             line = s.readline().decode(errors="replace").rstrip()
             if line.startswith("PROMPT"):
                 print("   >>>", line[7:])
-            m = re.match(r"RESULT (boot_button) (PASS|FAIL) ?(.*)", line)
+            m = re.match(r"RESULT (boot_button) (PASS|FAIL|SKIP) ?(.*)", line)
             if m:
                 results[m.group(1)] = (m.group(2), m.group(3))
                 print(f"    {m.group(2):6s} {m.group(1):22s} {m.group(3)}")
