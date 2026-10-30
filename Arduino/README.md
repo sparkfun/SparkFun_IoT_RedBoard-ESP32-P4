@@ -11,9 +11,9 @@ Board variants for [arduino-esp32](https://github.com/espressif/arduino-esp32) (
 |---|---|
 | `boards.txt` | Entries to append to the core's `boards.txt` (the `menu.*` declarations come from the core file) |
 | `variants/` | The two board variants |
-| `patches/0001-ETH-esp32p4-rmii-clock-loopback.patch` | Required for Ethernet on the PoE board (see [Board notes](#board-notes)) |
-| `drop-in/` | ESP32-P4 library files rebuilt for an ESP32-C5 co-processor, required for WiFi/BLE on the WiFi/BLE board (see [WiFi/BLE libraries](#wifible-libraries-esp32-c5-drop-in)) |
-| `install.sh`, `install.ps1` | Install the board files and `drop-in/` into a 3.3.12 core: macOS/Linux and Windows |
+| `patches/0001-ETH-esp32p4-rmii-clock-loopback.patch` | Ethernet library patch, required for Ethernet on the PoE board (see [Board notes](#board-notes)) |
+| `drop-in/` | ESP32-P4 library files rebuilt for an ESP32-C5 co-processor, required for WiFi/BLE on the WiFi/BLE board (see [WiFi/BLE libraries](#wifible-libraries-esp32-c5-drop-in)); `drop-in/Ethernet/` holds the Ethernet library files with the patch applied |
+| `install.sh`, `install.ps1` | Install the board files, `drop-in/` and the Ethernet patch into a 3.3.12 core: macOS/Linux and Windows |
 | `build/` | Inputs for rebuilding `drop-in/`, and the matching C5 firmware (see [Rebuilding the drop-in](#rebuilding-the-drop-in)) |
 | `tests/` | Hardware self test (see [`tests/README.md`](tests/README.md)) |
 
@@ -64,6 +64,7 @@ The scripts:
 
 - stop before changing anything if core 3.3.12 or its ESP32-P4 libraries are missing, if a drop-in file doesn't match `drop-in/SHA256SUMS`, or if the installed libraries' component versions differ from `drop-in/versions.txt`.
 - add `boards.txt` and both variants from this folder if the core doesn't have the `sparkfun_esp32p4_iot_redboard_wifi` board yet.
+- apply the Ethernet patch, in either mode: they copy `drop-in/Ethernet/ETH.h` and `ETH.cpp` into `<core>/libraries/Ethernet/src` and keep the stock files in `<core>/tools/redboard-p4-eth-stock`, which uninstall restores. A file that is neither stock 3.3.12 nor already patched is left alone with a warning (the PoE board's Ethernet won't start). Boards that don't define `ETH_RMII_CLK_IN` behave exactly as before.
 - put everything they add to `boards.txt` between `# BEGIN/END SparkFun RedBoard ESP32-P4 C5 drop-in` lines. A rerun replaces that block, and uninstall removes it, leaving `boards.txt` exactly as it was.
 - can be mixed: either script can uninstall what the other one installed.
 
@@ -87,6 +88,8 @@ Board Manager replaces the core on an update or reinstall, which removes all of 
    ```
    sparkfun_esp32p4_iot_redboard_wifi.tools.esp32-arduino-libs.path={runtime.platform.path}/tools/esp32p4-c5-libs
    ```
+
+4. For Ethernet on the PoE board, apply the patch to the core: `cd "<core>" && patch -p1 < /path/to/patches/0001-ETH-esp32p4-rmii-clock-loopback.patch`, or copy `drop-in/Ethernet/ETH.h` and `ETH.cpp` into `<core>/libraries/Ethernet/src`.
 
 ### Check the install
 
@@ -119,7 +122,7 @@ The files were built with every managed component pinned to the stock 3.3.12 ver
 
 2026-10-30, stock 3.3.12 libraries with the drop-in files replaced, on a WiFi/BLE board (ESP32-P4 rev v3.2, C5 slave firmware 2.13.0): 14 of 14 boots passed (after upload, 6 `ESP.restart()`, 7 RTS resets). `c5_target` reported `slave=esp32c5 fw 2.13.0 host 2.12.13`, WiFi scans found 85-92 networks (45-51 on 5 GHz) and BLE scans found 61-77 advertisers.
 
-Both install scripts were tested on macOS (`install.ps1` with PowerShell 7.6) against a copy of an Arduino data folder: install, reinstall, all-P4, switching modes, uninstall, a corrupt drop-in file and a missing core. `install.ps1` has not yet been run on Windows.
+Both install scripts were tested on macOS (`install.ps1` with PowerShell 7.6) against a copy of an Arduino data folder: install, reinstall, all-P4, switching modes, uninstall, a corrupt drop-in file, a missing core, and the Ethernet patch on a stock, modified, fully or partly pre-patched library. A PoE board flashed from a core installed with `install.sh` passed the Ethernet test. `install.ps1` has not yet been run on Windows.
 
 ### C5 firmware
 
@@ -160,7 +163,7 @@ source ./tools/install-esp-idf.sh
 Then copy the 5 files from `out/tools/esp32-arduino-libs/esp32p4` into `drop-in/`, copy `out/tools/esp32-arduino-libs/versions.txt` to `drop-in/versions.txt`, and regenerate the checksums:
 
 ```sh
-cd drop-in && shasum -a 256 lib/*.a */include/sdkconfig.h sdkconfig > SHA256SUMS
+cd drop-in && shasum -a 256 lib/*.a */include/sdkconfig.h sdkconfig Ethernet/ETH.h Ethernet/ETH.cpp > SHA256SUMS
 ```
 
 Check that `drop-in/versions.txt` lists the same component versions as the stock `tools/esp32p4-libs/3.3.12/versions.txt`; the install scripts refuse to install otherwise.
@@ -178,7 +181,17 @@ Notes:
 
 `WiFi.macAddress()` returns `00:00:00:00:00:00` immediately after `WiFi.mode(WIFI_STA)` over ESP-Hosted and the real MAC once the station is running.
 
-**PoE - RMII clock.** The DP83825I is strapped for RMII slave mode at PHY address 0. The P4 generates 50 MHz on GPIO23 (`EMAC_CLK_OUT`), looped back externally to GPIO32. The Ethernet library in arduino-esp32 3.3.12 (and on master) hard-codes `clock_config_out_in` to -1, so `ETH.begin()` fails without the patch. The patch adds `ETH_RMII_CLK_IN`, which the PoE variant sets to 32.
+**PoE - RMII clock.** The DP83825I is strapped for RMII slave mode at PHY address 0. The P4 generates 50 MHz on GPIO23 (`EMAC_CLK_OUT`), looped back externally to GPIO32. The Ethernet library in arduino-esp32 3.3.12 (and on master) hard-codes `clock_config_out_in` to -1, so `ETH.begin()` fails without the patch (confirmed on hardware: `ETH.begin()` returns false). The patch adds `ETH_RMII_CLK_IN`, which the PoE variant sets to 32. The install scripts apply it. With it, the PoE test in [`tests/`](tests/README.md) links at 100 Mbps full duplex, gets a DHCP lease and pings sparkfun.com.
+
+If the patch changes, regenerate the patched files and their checksums (the scripts check the core's files against the stock 3.3.12 hashes in `ETH_STOCK_SHA256` / `$EthFiles` before replacing them):
+
+```sh
+C=~/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12; T=$(mktemp -d)
+mkdir -p "$T/libraries/Ethernet/src" && cp "$C"/libraries/Ethernet/src/ETH.{h,cpp} "$T/libraries/Ethernet/src/"
+(cd "$T" && patch -p1 < "$OLDPWD/patches/0001-ETH-esp32p4-rmii-clock-loopback.patch")
+cp "$T"/libraries/Ethernet/src/ETH.{h,cpp} drop-in/Ethernet/
+cd drop-in && shasum -a 256 lib/*.a */include/sdkconfig.h sdkconfig Ethernet/ETH.h Ethernet/ETH.cpp > SHA256SUMS
+```
 
 **PoE - BOOT button.** GPIO35 is both the BOOT strap and RMII TXD1. Pressing BOOT while Ethernet is running corrupts transmitted frames.
 

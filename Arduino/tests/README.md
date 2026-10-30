@@ -1,15 +1,23 @@
 # Board-file hardware tests
 
-`RedBoardP4_WiFi_Test` is a self test for the WiFi/BLE board that needs no external wiring. `run_tests.py` flashes it and runs it across several boots (after upload, `ESP.restart()`, RTS hard reset).
+Self tests for both boards. `run_tests.py` flashes one and runs it across several boots (after upload, `ESP.restart()`, RTS hard reset).
+
+| `--board` | Sketch | Needs |
+|---|---|---|
+| `wifi` (default) | `RedBoardP4_WiFi_Test` | No external wiring. WiFi/BLE tests need the ESP32-C5 drop-in (`../install.sh` or `../install.ps1`, see ../README.md); with the stock 3.3.12 libs ESP-Hosted asserts. |
+| `poe` | `RedBoardP4_PoE_Test` | An Ethernet cable to a network with DHCP and internet access, and the Ethernet patch applied to the core (`../install.sh` / `../install.ps1` do this) |
 
 ```sh
 python3 -m pip install pyserial
-python3 run_tests.py --port /dev/cu.usbmodem1301               # full suite
+python3 run_tests.py --port /dev/cu.usbmodem1301               # WiFi/BLE board, full suite
 python3 run_tests.py --port /dev/cu.usbmodem1301 --no-network  # skip WiFi/BLE (see ../README.md)
 python3 run_tests.py --port /dev/cu.usbmodem1301 --no-upload --boot-button
+python3 run_tests.py --port /dev/cu.usbmodem1301 --board poe   # PoE board
 ```
 
-Pass `--fqbn` if the board isn't installed as `esp32:esp32:sparkfun_esp32p4_iot_redboard_wifi`. The WiFi/BLE tests need the ESP32-C5 drop-in (`../install.sh` or `../install.ps1`, see ../README.md); with the stock 3.3.12 libs ESP-Hosted asserts. `--soft`/`--hard` set the number of restarts of each kind.
+Pass `--fqbn` if the board isn't installed as `esp32:esp32:sparkfun_esp32p4_iot_redboard_wifi` / `_poe`. `--soft`/`--hard` set the number of restarts of each kind.
+
+## WiFi/BLE board
 
 | Test | Checks |
 |---|---|
@@ -23,5 +31,20 @@ Pass `--fqbn` if the board isn't installed as `esp32:esp32:sparkfun_esp32p4_iot_
 | `wifi_*`, `c5_target`, `ble_*` | ESP-Hosted over SDIO to the C5, WiFi scan, BLE scan |
 | `rgb_led`, `boot_button` | Manual: watch the LED / press BOOT when prompted |
 | Pin map | `static_assert`s against the KiCad netlist (compile time) |
+
+## PoE board
+
+| Test | Checks |
+|---|---|
+| `eth_begin` | `ETH.begin()` with the variant defaults: DP83825I found over MDIO at address 0, RMII clock out on GPIO23 and looped back to GPIO32 (`ETH_RMII_CLK_IN`, needs the patch) |
+| `eth_link`, `eth_100mbps_full` | Link up within 10 s, autonegotiated to 100 Mbps full duplex |
+| `eth_dhcp` | DHCP lease within 15 s |
+| `ping_gateway` | 5 pings to the gateway, all answered |
+| `dns_lookup` | `sparkfun.com` resolves |
+| `ping_sparkfun` | 5 pings to `sparkfun.com`, all answered. A network that blocks ICMP fails this even with a working link; check `tcp_sparkfun_443` then |
+| `tcp_sparkfun_443` | TCP connection to `sparkfun.com:443` |
+| Pin map | `static_assert`s on the RMII/MDIO pins (compile time) |
+
+Tested 2026-10-30 on a PoE board on a wired office network: 5 of 5 boots passed (after upload, 2 `ESP.restart()`, 2 RTS resets). Every boot linked at 100 Mbps full duplex, got a DHCP lease in about 1 s, and got 5/5 ping replies from the gateway (under 1 ms) and from sparkfun.com (2-8 ms). With the same sketch built against an unpatched 3.3.12 core, `eth_begin` fails: `ETH.begin()` returns false and Ethernet never starts.
 
 On macOS, opening the USB Serial/JTAG port resets the P4 once, so the boot counter steps by 2 per run.

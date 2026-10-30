@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Install the ESP32-C5 drop-in (drop-in/) into an arduino-esp32 3.3.12 core.
+# Install the RedBoard ESP32-P4 board files, the ESP32-C5 drop-in (drop-in/) and the
+# Ethernet patch (patches/, needed by the PoE board) into an arduino-esp32 3.3.12 core.
 # macOS and Linux. Windows: install.ps1.
 #
 #   ./install.sh                     this board only (default)
@@ -23,6 +24,13 @@ DROP_IN_FILES=(
     dio_qspi/include/sdkconfig.h
     sdkconfig
 )
+# Ethernet library files replaced by drop-in/Ethernet (patches/0001-ETH-esp32p4-rmii-clock-loopback.patch),
+# with their stock 3.3.12 checksums.
+ETH_FILES=(ETH.h ETH.cpp)
+ETH_STOCK_SHA256=(
+    5c8fe676e61ffe33be8363d20d23c5bf242c11f1b85e2a2a91d100177dd79904
+    90a68fa2e6ad7d9de3e31ec20b035ba2ba560978d4e1cbe541b750f3059b109a
+)
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DROP_IN="$HERE/drop-in"
@@ -31,7 +39,7 @@ BOARD_FILES="$HERE"   # boards.txt and variants/
 die()  { echo "error: $*" >&2; exit 1; }
 info() { echo "  $*"; }
 
-usage() { sed -n '2,11p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
+usage() { sed -n '2,12p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
 
 mode=board
 arduino_dir=""
@@ -63,6 +71,8 @@ STOCK="$arduino_dir/packages/esp32/tools/esp32p4-libs/$CORE_VERSION"
 STOCK_BACKUP="$STOCK.stock"
 BOARD_LIBS="$CORE/tools/$LIBS_DIR_NAME"
 BOARDS_TXT="$CORE/boards.txt"
+ETH_SRC="$CORE/libraries/Ethernet/src"
+ETH_BACKUP="$CORE/tools/redboard-p4-eth-stock"
 
 echo "Arduino data folder: $arduino_dir"
 [ -d "$CORE" ]  || die "arduino-esp32 $CORE_VERSION not found at $CORE. Install it with Boards Manager (esp32 by Espressif Systems, version $CORE_VERSION)."
@@ -88,7 +98,43 @@ block_has_board_files() {
         '$0==b{in_=1;next} $0==e{in_=0} in_ && index($0,n)==1{found=1} END{exit !found}' "$BOARDS_TXT"
 }
 
+# Replace the Ethernet library files with the patched ones, keeping the stock files in $ETH_BACKUP.
+# Leaves files alone that are neither stock nor already patched.
+patch_eth() {
+    local i f sum stock=()
+    for i in "${!ETH_FILES[@]}"; do
+        f="${ETH_FILES[$i]}"
+        sum="$(sha256 "$ETH_SRC/$f")"
+        if [ "$sum" = "${ETH_STOCK_SHA256[$i]}" ]; then
+            stock+=("$f")
+        elif [ "$sum" != "$(sha256 "$DROP_IN/Ethernet/$f")" ]; then
+            echo "  warning: $ETH_SRC/$f has been modified; not applying the Ethernet patch (the PoE board's Ethernet won't start)" >&2
+            return 0
+        fi
+    done
+    if [ ${#stock[@]} -eq 0 ]; then
+        info "Ethernet library already patched"
+        return 0
+    fi
+    mkdir -p "$ETH_BACKUP"
+    for f in "${stock[@]}"; do
+        cp "$ETH_SRC/$f" "$ETH_BACKUP/$f"
+        cp "$DROP_IN/Ethernet/$f" "$ETH_SRC/$f"
+    done
+    info "patched the Ethernet library (RMII clock loopback for the PoE board)"
+}
+
+unpatch_eth() {
+    [ -d "$ETH_BACKUP" ] || return 0
+    for f in "${ETH_FILES[@]}"; do
+        [ -f "$ETH_BACKUP/$f" ] && cp "$ETH_BACKUP/$f" "$ETH_SRC/$f"
+    done
+    rm -rf "$ETH_BACKUP"
+    info "restored the stock Ethernet library"
+}
+
 uninstall() {
+    unpatch_eth
     if has_block; then
         if block_has_board_files; then
             rm -rf "$CORE/variants/sparkfun_esp32p4_iot_redboard_wifi" "$CORE/variants/sparkfun_esp32p4_iot_redboard_poe"
@@ -160,11 +206,13 @@ for f in "${DROP_IN_FILES[@]}"; do
 done
 info "installed drop-in into $target"
 
+patch_eth
+
 if [ -n "$block" ]; then
     [ -n "$(tail -c1 "$BOARDS_TXT")" ] && echo >> "$BOARDS_TXT"
     printf '%s\n%s\n%s\n' "$BEGIN_MARK" "$block" "$END_MARK" >> "$BOARDS_TXT"
     info "updated boards.txt"
 fi
 
-echo "Done. Restart the Arduino IDE and select 'SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)'."
+echo "Done. Restart the Arduino IDE and select 'SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)' or '(PoE)'."
 echo "Updating or reinstalling the esp32 core removes this; run the script again afterwards."

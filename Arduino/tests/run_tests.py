@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """
-Hardware test runner for the SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE) board file.
+Hardware test runner for the SparkFun IoT RedBoard - ESP32-P4 board files.
 
-Builds and uploads RedBoardP4_WiFi_Test with arduino-cli, then runs the on-board test suite
-across several boots: the first boot after upload, software restarts (ESP.restart) and hard
-resets (USB Serial/JTAG RTS). Every boot has to bring the ESP32-C5 back up, which exercises
-the C5 reset handling in the variant.
+Builds and uploads the test sketch with arduino-cli, then runs the on-board test suite across
+several boots: the first boot after upload, software restarts (ESP.restart) and hard resets
+(USB Serial/JTAG RTS).
+  --board wifi (default)  RedBoardP4_WiFi_Test. Every boot has to bring the ESP32-C5 back up,
+                          which exercises the C5 reset handling in the variant.
+  --board poe             RedBoardP4_PoE_Test: Ethernet link, DHCP, ping gateway and sparkfun.com.
 
 Usage:
-    python3 run_tests.py --port /dev/cu.usbmodem1301 [--fqbn ...] [--no-upload] [--boot-button]
+    python3 run_tests.py --port /dev/cu.usbmodem1301 [--board poe] [--fqbn ...] [--no-upload] [--boot-button]
 
 Requires pyserial and arduino-cli. Exit status is 0 only if every boot passes.
 """
@@ -22,8 +24,11 @@ import time
 import serial
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SKETCH = os.path.join(HERE, "RedBoardP4_WiFi_Test")
-DEFAULT_FQBN = "esp32:esp32:sparkfun_esp32p4_iot_redboard_wifi"
+# --board: (sketch, default FQBN)
+BOARDS = {
+    "wifi": (os.path.join(HERE, "RedBoardP4_WiFi_Test"), "esp32:esp32:sparkfun_esp32p4_iot_redboard_wifi"),
+    "poe": (os.path.join(HERE, "RedBoardP4_PoE_Test"), "esp32:esp32:sparkfun_esp32p4_iot_redboard_poe"),
+}
 
 
 def open_port(port, timeout=15.0):
@@ -120,17 +125,20 @@ def soft_restart(port):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--port", required=True)
-    ap.add_argument("--fqbn", default=DEFAULT_FQBN)
+    ap.add_argument("--board", choices=BOARDS, default="wifi", help="board variant to test (default: wifi)")
+    ap.add_argument("--fqbn", help="override the FQBN for --board")
     ap.add_argument("--no-upload", action="store_true")
     ap.add_argument("--soft", type=int, default=2, help="software restarts to test")
     ap.add_argument("--hard", type=int, default=2, help="hard (RTS) resets to test")
     ap.add_argument("--boot-button", action="store_true", help="also run the interactive BOOT button test")
     ap.add_argument("--no-network", action="store_true", help="skip the WiFi/BLE (ESP-Hosted) tests")
     args = ap.parse_args()
+    sketch, default_fqbn = BOARDS[args.board]
+    fqbn = args.fqbn or default_fqbn
 
     if not args.no_upload:
-        print(f"== Building and uploading {args.fqbn}")
-        r = subprocess.run(["arduino-cli", "compile", "-u", "-p", args.port, "-b", args.fqbn, SKETCH])
+        print(f"== Building and uploading {fqbn}")
+        r = subprocess.run(["arduino-cli", "compile", "-u", "-p", args.port, "-b", fqbn, sketch])
         if r.returncode:
             sys.exit("upload failed")
         time.sleep(1.0)

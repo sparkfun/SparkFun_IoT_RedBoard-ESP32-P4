@@ -1,4 +1,5 @@
-# Install the ESP32-C5 drop-in (drop-in/) into an arduino-esp32 3.3.12 core.
+# Install the RedBoard ESP32-P4 board files, the ESP32-C5 drop-in (drop-in/) and the
+# Ethernet patch (patches/, needed by the PoE board) into an arduino-esp32 3.3.12 core.
 # Windows. macOS and Linux: install.sh.
 #
 #   .\install.ps1                     this board only (default)
@@ -30,6 +31,12 @@ $DropInFiles = @(
     "dio_qspi/include/sdkconfig.h",
     "sdkconfig"
 )
+# Ethernet library files replaced by drop-in/Ethernet (patches/0001-ETH-esp32p4-rmii-clock-loopback.patch),
+# with their stock 3.3.12 checksums.
+$EthFiles = [ordered]@{
+    "ETH.h"   = "5c8fe676e61ffe33be8363d20d23c5bf242c11f1b85e2a2a91d100177dd79904"
+    "ETH.cpp" = "90a68fa2e6ad7d9de3e31ec20b035ba2ba560978d4e1cbe541b750f3059b109a"
+}
 
 # Join path segments; "/" in any segment becomes the native separator.
 function P { [IO.Path]::Combine([string[]]($args | ForEach-Object { $_.Replace("/", [IO.Path]::DirectorySeparatorChar) })) }
@@ -56,6 +63,8 @@ $Stock = P $ArduinoDir "packages/esp32/tools/esp32p4-libs" $CoreVersion
 $StockBackup = "$Stock.stock"
 $BoardLibs = P $Core "tools" $LibsDirName
 $BoardsTxt = P $Core "boards.txt"
+$EthSrc = P $Core "libraries/Ethernet/src"
+$EthBackup = P $Core "tools/redboard-p4-eth-stock"
 
 Write-Host "Arduino data folder: $ArduinoDir"
 if (-not (Test-Path -LiteralPath $Core)) { Die "arduino-esp32 $CoreVersion not found at $Core. Install it with Boards Manager (esp32 by Espressif Systems, version $CoreVersion)." }
@@ -79,7 +88,43 @@ function Split-Block {
     return @{ Block = $block; Rest = $rest; Found = ((Read-Boards) -contains $BeginMark) }
 }
 
+# Replace the Ethernet library files with the patched ones, keeping the stock files in $EthBackup.
+# Leaves files alone that are neither stock nor already patched.
+function Patch-Eth {
+    $stock = @()
+    foreach ($f in $EthFiles.Keys) {
+        $sum = Sha256 (P $EthSrc $f)
+        if ($sum -eq $EthFiles[$f]) {
+            $stock += $f
+        } elseif ($sum -ne (Sha256 (P $DropIn "Ethernet" $f))) {
+            Write-Host "  warning: $(P $EthSrc $f) has been modified; not applying the Ethernet patch (the PoE board's Ethernet won't start)" -ForegroundColor Yellow
+            return
+        }
+    }
+    if ($stock.Count -eq 0) {
+        Info "Ethernet library already patched"
+        return
+    }
+    New-Item -ItemType Directory -Force -Path $EthBackup | Out-Null
+    foreach ($f in $stock) {
+        Copy-Item -LiteralPath (P $EthSrc $f) -Destination (P $EthBackup $f) -Force
+        Copy-Item -LiteralPath (P $DropIn "Ethernet" $f) -Destination (P $EthSrc $f) -Force
+    }
+    Info "patched the Ethernet library (RMII clock loopback for the PoE board)"
+}
+
+function Unpatch-Eth {
+    if (-not (Test-Path -LiteralPath $EthBackup)) { return }
+    foreach ($f in $EthFiles.Keys) {
+        $b = P $EthBackup $f
+        if (Test-Path -LiteralPath $b) { Copy-Item -LiteralPath $b -Destination (P $EthSrc $f) -Force }
+    }
+    Remove-Item -LiteralPath $EthBackup -Recurse -Force
+    Info "restored the stock Ethernet library"
+}
+
 function Do-Uninstall {
+    Unpatch-Eth
     $s = Split-Block
     if ($s.Found) {
         if ($s.Block | Where-Object { $_.StartsWith("$Board.name=") }) {
@@ -163,10 +208,12 @@ foreach ($f in $DropInFiles) {
 }
 Info "installed drop-in into $target"
 
+Patch-Eth
+
 if ($block.Count -gt 0) {
     Write-Boards (@(Read-Boards) + $BeginMark + $block + $EndMark)
     Info "updated boards.txt"
 }
 
-Write-Host "Done. Restart the Arduino IDE and select 'SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)'."
+Write-Host "Done. Restart the Arduino IDE and select 'SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)' or '(PoE)'."
 Write-Host "Updating or reinstalling the esp32 core removes this; run the script again afterwards."
