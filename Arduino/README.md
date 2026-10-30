@@ -34,9 +34,11 @@ assert failed: verify_host_config_for_slave transport_drv.c:694 (0!=0)
 
 `drop-in/` fixes this by replacing 5 files in the stock libraries with ones built for a C5. It is a stopgap until arduino-esp32 supports the C5 directly.
 
+The install below also patches the core's Ethernet library (`ETH.h`, `ETH.cpp`), which the PoE board needs: the stock library can't use the board's looped-back RMII clock, so `ETH.begin()` fails (see [PoE - RMII clock](#board-notes)). One install sets up both boards.
+
 ### Requirements
 
-- **arduino-esp32 3.3.12** exactly, installed with Boards Manager (*esp32 by Espressif Systems*). The files must match the core version; don't use them with any other release.
+- **arduino-esp32 3.3.12** exactly, installed with Boards Manager (*esp32 by Espressif Systems*). The drop-in files and the patched Ethernet files must match the core version; don't use them with any other release.
 - **ESP32-P4 chip revision v3.x** (the board's default *ChipVariant: v3.00 or newer*).
 
 ### Install
@@ -51,13 +53,15 @@ Close the Arduino IDE, then from this folder:
 powershell -ExecutionPolicy Bypass -File .\install.ps1    # Windows
 ```
 
-Restart the IDE and select *SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)*.
+Restart the IDE and select *SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)* or *SparkFun IoT RedBoard - ESP32-P4 (PoE)*.
+
+The options below choose where the C5 drop-in goes. The Ethernet patch is applied the same way in every install mode.
 
 | `install.sh` | `install.ps1` | |
 |---|---|---|
 | *(none)* | *(none)* | **This board only (recommended).** Copies the stock `tools/esp32p4-libs/3.3.12` tree to `<core>/tools/esp32p4-c5-libs`, overwrites the drop-in files there, and adds a `boards.txt` line that points only this board at it. Every other board, including ESP32-P4 boards with a C6, keeps the stock libraries. |
 | `--all-p4` | `-AllP4` | **All ESP32-P4 boards.** Renames the stock tree to `3.3.12.stock` and overwrites the drop-in files in a copy. WiFi/BLE then stops working on ESP32-P4 boards with a C6 (for example the ESP32-P4 Function EV Board) until you uninstall. |
-| `--uninstall` | `-Uninstall` | Undoes either one, restores the stock libraries and removes the board files the script added |
+| `--uninstall` | `-Uninstall` | Undoes either one: restores the stock libraries and the stock Ethernet library files, and removes the board files the script added |
 | `--arduino-dir DIR` | `-ArduinoDir DIR` | Arduino data folder. Default: `arduino-cli`'s `directories.data`, otherwise `~/Library/Arduino15`, `~/.arduino15` or `%LOCALAPPDATA%\Arduino15` |
 
 The scripts:
@@ -68,7 +72,7 @@ The scripts:
 - put everything they add to `boards.txt` between `# BEGIN/END SparkFun RedBoard ESP32-P4 C5 drop-in` lines. A rerun replaces that block, and uninstall removes it, leaving `boards.txt` exactly as it was.
 - can be mixed: either script can uninstall what the other one installed.
 
-Board Manager replaces the core on an update or reinstall, which removes all of this. Run the script again afterwards.
+Board Manager replaces the core on an update or reinstall, which removes all of this, including the Ethernet patch. Run the script again afterwards.
 
 ### Manual install
 
@@ -101,7 +105,16 @@ grep CONFIG_IDF_SLAVE_TARGET build-out/sdkconfig
 # CONFIG_IDF_SLAVE_TARGET="esp32c5"
 ```
 
-On the board, a WiFi scan should list networks, including 5 GHz ones. The full hardware test is in [`tests/`](tests/README.md).
+On the board, a WiFi scan should list networks, including 5 GHz ones.
+
+For the PoE board, check that the core's Ethernet library is patched:
+
+```sh
+grep -c ETH_RMII_CLK_IN "<core>/libraries/Ethernet/src/ETH.h" "<core>/libraries/Ethernet/src/ETH.cpp"
+# both counts non-zero; 0 means the stock files are still in place
+```
+
+The full hardware tests for both boards are in [`tests/`](tests/README.md).
 
 ### What the drop-in changes
 
@@ -200,8 +213,8 @@ cd drop-in && shasum -a 256 lib/*.a */include/sdkconfig.h sdkconfig Ethernet/ETH
 Until arduino-esp32 supports the C5, customers could download this folder as a zip and run the install script. Things to settle first:
 
 - **Zip folder name.** GitHub's *Download ZIP* wraps everything in `<repo>-main/`; the instructions must say to run the script from the folder that contains it.
-- **Locked to core 3.3.12.** State it prominently and tag the release `3.3.12`. A core update or reinstall removes the libraries and board files, and the drop-in won't install on a newer core (the version check refuses). Each new core release that still lacks C5 support needs a rebuild and a new tag.
-- **Licensing.** These are Espressif binaries (ESP-IDF: Apache-2.0; arduino-esp32 and its libraries: LGPL-2.1). Redistribution is allowed; include the license files and a note that the build is unmodified apart from the two files in `build/`.
+- **Locked to core 3.3.12.** State it prominently and tag the release `3.3.12`. A core update or reinstall removes the libraries, the Ethernet patch and the board files, and the drop-in won't install on a newer core (the version check refuses). Each new core release that still lacks C5 support needs a rebuild and a new tag.
+- **Licensing.** These are Espressif binaries (ESP-IDF: Apache-2.0; arduino-esp32 and its libraries: LGPL-2.1). Redistribution is allowed; include the license files and a note that the build is unmodified apart from the two files in `build/`, and that `drop-in/Ethernet/` is the arduino-esp32 Ethernet library (LGPL-2.1) with `patches/0001-ETH-esp32p4-rmii-clock-loopback.patch` applied.
 - **Windows.** Run `install.ps1` on a real Windows machine (Windows PowerShell 5.1, `%LOCALAPPDATA%`, long paths) before shipping.
 
 The long-term fix is upstream: ask Espressif to have arduino-esp32 check the co-processor type when ESP-Hosted connects (the C5 reports it; firmware 2.12.2 or newer) instead of hard-coding the C6. The drop-in is the reference for that request: it shows the change touches only esp_hosted, esp_wifi_remote and `sdkconfig.h`.
