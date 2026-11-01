@@ -198,6 +198,8 @@ else
     cp -R "$src" "$BOARD_LIBS"
     target="$BOARD_LIBS"
     block="$block${block:+$'\n'}$BOARD.tools.esp32-arduino-libs.path={runtime.platform.path}/tools/$LIBS_DIR_NAME"
+    # Windows: cmd.exe COPY in the core's prebuild hooks rejects forward slashes in the path.
+    block="$block"$'\n'"$BOARD.tools.esp32-arduino-libs.path.windows={runtime.platform.path}\\tools\\$LIBS_DIR_NAME"
 fi
 
 for f in "${DROP_IN_FILES[@]}"; do

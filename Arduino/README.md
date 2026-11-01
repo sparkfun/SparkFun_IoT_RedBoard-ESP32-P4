@@ -87,10 +87,11 @@ Board Manager replaces the core on an update or reinstall, which removes all of 
    cp -R drop-in/lib drop-in/qio_qspi drop-in/dio_qspi drop-in/sdkconfig "<core>/tools/esp32p4-c5-libs/"
    ```
 
-3. Add this line to `<core>/boards.txt`, after the `sparkfun_esp32p4_iot_redboard_wifi` entries:
+3. Add these lines to `<core>/boards.txt`, after the `sparkfun_esp32p4_iot_redboard_wifi` entries (the `.windows` line uses backslashes because `cmd.exe COPY` in the core's prebuild hooks rejects forward slashes):
 
    ```
    sparkfun_esp32p4_iot_redboard_wifi.tools.esp32-arduino-libs.path={runtime.platform.path}/tools/esp32p4-c5-libs
+   sparkfun_esp32p4_iot_redboard_wifi.tools.esp32-arduino-libs.path.windows={runtime.platform.path}\tools\esp32p4-c5-libs
    ```
 
 4. For Ethernet on the PoE board, apply the patch to the core: `cd "<core>" && patch -p1 < /path/to/patches/0001-ETH-esp32p4-rmii-clock-loopback.patch`, or copy `drop-in/Ethernet/ETH.h` and `ETH.cpp` into `<core>/libraries/Ethernet/src`.

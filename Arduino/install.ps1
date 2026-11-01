@@ -198,6 +198,8 @@ if ($AllP4) {
     Copy-Item -LiteralPath $src -Destination $BoardLibs -Recurse
     $target = $BoardLibs
     $block += "$Board.tools.esp32-arduino-libs.path={runtime.platform.path}/tools/$LibsDirName"
+    # Windows: cmd.exe COPY in the core's prebuild hooks rejects forward slashes in the path.
+    $block += "$Board.tools.esp32-arduino-libs.path.windows={runtime.platform.path}\tools\$LibsDirName"
 }
 
 foreach ($f in $DropInFiles) {
