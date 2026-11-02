@@ -1,4 +1,5 @@
 ##############################################################
+# SparkFun IoT RedBoard ESP32-P4 - WiFi/BLE
 
 sparkfun_esp32p4_iot_redboard_wifi.name=SparkFun IoT RedBoard - ESP32-P4 (WiFi/BLE)
 sparkfun_esp32p4_iot_redboard_wifi.bootloader.tool=esptool_py
@@ -79,13 +80,16 @@ sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.app3M_fat9M_16MB.build.p
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.default.build.partitions=default
+sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.default.upload.maximum_size=1310720
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.defaultffat.upload.maximum_size=1310720
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.minimal.build.partitions=minimal
+sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.minimal.upload.maximum_size=1310720
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.no_fs=No FS 4MB (2MB APP x2)
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.no_fs.build.partitions=no_fs
 sparkfun_esp32p4_iot_redboard_wifi.menu.PartitionScheme.no_fs.upload.maximum_size=2031616
@@ -148,6 +152,7 @@ sparkfun_esp32p4_iot_redboard_wifi.menu.EraseFlash.all=Enabled
 sparkfun_esp32p4_iot_redboard_wifi.menu.EraseFlash.all.upload.erase_cmd=-e
 
 ##############################################################
+# SparkFun IoT RedBoard ESP32-P4 - POE
 
 sparkfun_esp32p4_iot_redboard_poe.name=SparkFun IoT RedBoard - ESP32-P4 (PoE)
 sparkfun_esp32p4_iot_redboard_poe.bootloader.tool=esptool_py
@@ -228,13 +233,16 @@ sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.app3M_fat9M_16MB.build.pa
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.default.build.partitions=default
+sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.default.upload.maximum_size=1310720
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.defaultffat.upload.maximum_size=1310720
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.minimal.build.partitions=minimal
+sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.minimal.upload.maximum_size=1310720
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.no_fs=No FS 4MB (2MB APP x2)
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.no_fs.build.partitions=no_fs
 sparkfun_esp32p4_iot_redboard_poe.menu.PartitionScheme.no_fs.upload.maximum_size=2031616
