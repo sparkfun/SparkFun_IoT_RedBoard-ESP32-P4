@@ -6,10 +6,6 @@ In this Quick Start Guide we'll connect the IoT RedBoard - ESP32-P4 to a compute
 
 All we'll need for this example is a connection to a computer over USB-C via the RedBoard's Serial/JTAG USB-C connector and, if you're using the PoE version, connecting an Ethernet cable to the MagJack. The photos below show both versions connected.
 
-![Photo of WiFi/BLE IoT RedBoard connected over USB]()
-
-![Photo of PoE IoT RedBoard connected over USB and Ethernet]()
-
 ## Astronauts in Space Example
 
 This Python example connects the IoT RedBoard to
