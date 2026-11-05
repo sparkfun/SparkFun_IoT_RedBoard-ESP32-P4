@@ -2,7 +2,7 @@
 
 ## ESP32-P4 SoC
 
-The main processor on this IoT RedBoard, the ESP32-P4 is a high-performance dual-core RISC-V CPU that includes a host of impressive features including AI instruction extensions, advanced memory subsystem and high-speed peripherals. The ESP32-P4's dual RISC-V cores run at speeds up to 400M Hz for high performance applications but also has an integrated low-power core that runs up to 40 MHz for ultra-low power applications. The P4 boasts a wide range of peripheral options including I2C, SPI, I2S, LED PWM, TWAI<sup>&trade;</sup> as well as full and high-speed USB and high-speed SDIO capability. For a complete overview of the ESP32-P4, refer to the [datasheet](/esp32-p4_datasheet_en.pdf)
+The main processor on this IoT RedBoard, the ESP32-P4 is a high-performance dual-core RISC-V CPU that includes a host of impressive features including AI instruction extensions, advanced memory subsystem and high-speed peripherals. The ESP32-P4's dual RISC-V cores run at speeds up to 400M Hz for high performance applications but also has an integrated low-power core that runs up to 40 MHz for ultra-low power applications. The P4 boasts a wide range of peripheral options including I2C, SPI, I2S, LED PWM, TWAI<sup>&trade;</sup> as well as full and high-speed USB and high-speed SDIO capability. For a complete overview of the ESP32-P4, refer to the [datasheet](/ref/esp32-p4_datasheet_en.pdf)
 
 ## Networking
 
