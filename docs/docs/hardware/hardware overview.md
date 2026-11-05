@@ -83,7 +83,7 @@ The following list outlines the solder jumpers shared by both versions of the Io
 
 ### PoE Jumpers
 
-The PoE version of the IoT RedBoard includes three extra solder jumpers labeled <b>POE</b>, <b>GRN<b> and <b>YLW</b>. The list below outlines their functionality, default state and any notes on their use:
+The PoE version of the IoT RedBoard includes three extra solder jumpers labeled <b>POE</b>, <b>GRN</b> and <b>YLW</b>. The list below outlines their functionality, default state and any notes on their use:
 
 * <b>POE</b> - The POE jumper creates a dummy load on the buck regulator to maintain the minimum PoE load and is CLOSED by default. Open this jumper to disable the dummy load.
 * <b>GRN</b> - The GRN jumper completes the circuit for the green LED on the Ethernet jack and is CLOSED by default. Open the jumper to disable the green LED on the jack.
