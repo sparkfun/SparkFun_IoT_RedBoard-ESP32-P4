@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-In this Quick Start Guide we'll connect the IoT RedBoard - ESP32-P4 to a computer and network (wired or wireless depending on the version you have) and pull data from a website that tracks how many astronauts currently on the ISS along with their names. This guide assumes users have a basic understanding of the IoT RedBoard - ESP32-P4 and using Python and Python interpreters.
+In this Quick Start Guide we'll connect the IoT RedBoard - ESP32-P4 to a computer and then use a Python script to connect it to a network (wired or wireless depending on the version you have) and pull data from a website that tracks how many astronauts currently on the ISS along with their names. This guide assumes users have a basic understanding of using development boards and using Python. If you're not familiar with these concepts or want to learn more about the IoT RedBoard - ESP32-P4 we recommend reading through the rest of this guide.
 
 ## Basic Assembly
 
@@ -14,11 +14,11 @@ All we'll need for this example is a connection to a computer over USB-C via the
 
 This Python example connects the IoT RedBoard to
 
-* Copy the code below into your preferred Python interpreter. You can also find the example in the [GitHub Repository]().
+* Copy the code below into your preferred Python interpreter. You can also find the example in the [GitHub Repository](https://github.com/sparkfun/SparkFun_IoT_RedBoard-ESP32-P4).
 * Depending on which version of the IoT RedBoard you have, comment/uncomment the lines for `network_if` to select the correct network type. LAN for the PoE and WLAN for the WiFi/BLE.
 * If you're using WLAN (WiFi), enter the network SSID and password in the example.
 * Select the IoT RedBoard - ESP32-P4 and the port.
-* Click the "Run" button if you're using an interpreter like [Thonny](). 
+* Click the "Run" button if you're using an interpreter like [Thonny](https://thonny.org/). 
 
 The example includes serial printouts for each step and also cycles the RGB LED from Red while connecting to the network, Blue while downloading the data and Green to indicate success. Once the download finishes, the code prints out the number of astronauts on the ISS along with their names.
 
