@@ -144,8 +144,12 @@ const config: Config = {
                     title: 'SparkFun IoT RedBoard - ESP32-P4',
                     items: [
                         {
-                            label: 'IoTRedBoardESP32P4',
-                            href: 'https://www.sparkfun.com/products/30909'
+                            label: 'IoT RedBoard ESP32P4-WiFi',
+                            href: 'https://www.sparkfun.com/sparkfun-iot-redboard-esp32-p4-esp32-c5-wifi-ble.html'
+                        },
+                        {
+                            label: 'IoT RedBoard ESP32P4-PoE',
+                            href: 'https://www.sparkfun.com/sparkfun-iot-redboard-esp32-p4-poe.html'
                         },
                     ],
                 },
